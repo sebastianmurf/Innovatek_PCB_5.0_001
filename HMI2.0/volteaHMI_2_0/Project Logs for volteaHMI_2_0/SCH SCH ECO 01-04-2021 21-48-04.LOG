@@ -1,0 +1,24 @@
+Change Component Footprint: Designator=R2 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R3 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R4 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R5 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R6 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R7 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R8 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=R9 Old Footprint=J1-0603 New Footprint=AXIAL-0.5
+Change Component Comment: Designator=R2 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R3 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R4 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R5 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R6 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R7 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R8 Old Comment=Res3 New Comment=
+Change Component Comment: Designator=R9 Old Comment=Res3 New Comment=
+Change Pin Designator/Name:  Old Designator=R6-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R6-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R7-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R7-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R8-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R8-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=R9-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R9-2 Old Name=2 New Designator =1 New Name=1

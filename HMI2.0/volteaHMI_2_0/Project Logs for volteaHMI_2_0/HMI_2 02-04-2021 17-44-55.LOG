@@ -1,0 +1,16 @@
+Added Component: Designator=U2(SSOP16)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC11_1 Pin=U2-1
+Added Pin To Net: NetName=+5V Pin=U2-2
+Added Pin To Net: NetName=NetC11_2 Pin=U2-3
+Added Pin To Net: NetName=NetC12_1 Pin=U2-4
+Added Pin To Net: NetName=NetC12_2 Pin=U2-5
+Added Pin To Net: NetName=NetC17_2 Pin=U2-6
+Added Pin To Net: NetName=NetJ1_3 Pin=U2-7
+Added Pin To Net: NetName=NetJ1_2 Pin=U2-8
+Added Pin To Net: NetName=NetR3_1 Pin=U2-9
+Added Pin To Net: NetName=NetU2_10 Pin=U2-10
+Added Pin To Net: NetName=GND Pin=U2-15
+Added Pin To Net: NetName=+5V Pin=U2-16
+Added Member To Class: ClassName=SCH Member=Component U2 MAX232*
+Added Room: Name=SCH

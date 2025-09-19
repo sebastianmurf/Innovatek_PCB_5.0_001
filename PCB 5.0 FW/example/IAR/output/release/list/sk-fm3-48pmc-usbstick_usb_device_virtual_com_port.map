@@ -1,0 +1,2161 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.1.475/W64 for ARM                  31/Jul/2025  12:59:01
+# Copyright 2007-2025 IAR Systems AB.
+#
+#    Output file  =
+#        C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\exe\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out
+#    Map file     =
+#        C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\list\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.map
+#    Command line =
+#        -f "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\exe\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out.rsp"
+#        ("C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\1wire.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\adc_14570598181400393537.dir\adc.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\AT45DB161.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\Atlas_C.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\Atlas_TC.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\AtlasReplacement.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\sk-fm3-48pmc-usbstick_846271940431841289.dir\board.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\bt.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\sk-fm3-48pmc-usbstick_846271940431841289.dir\button.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\can.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\elm-chan.org_14072396974245291179.dir\ccsbcs.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\clk.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\command.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\constants.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\crc.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\crtrim.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\csv.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\dac.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\delay.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\elm-chan.org_14072396974245291179.dir\diskio.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\dma.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\DS18B20.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\dsm.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\dt.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\DualTimer.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\exint.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\extif.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\elm-chan.org_14072396974245291179.dir\ff.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\flash.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\gpio.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\gprs.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\GprsUart.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\i2c.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\interrupts.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\l3.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\sk-fm3-48pmc-usbstick_846271940431841289.dir\ledpwm.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\lvd.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\source_files_8152044814988207902.dir\main.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\mfs.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\mft.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\mmu.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\mybootloader.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\myfun.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\MyUsb.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\PAE800.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\PAE_I2C.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\ppg_314900825880331553.dir\ppg.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\ProjectFunc.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\qprc.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\ramcode.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\reset.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\rtc.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\SerialHmi.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\SerialPort.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\source_files_8152044814988207902.dir\startup_mb9af31x.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\common_14919461937644757070.dir\system_mb9af31x.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\sk-fm3-48pmc-usbstick_846271940431841289.dir\uart.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\usb.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir\UsbClassSupervisor.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbConfig_13880776959982941018.dir\UsbConfig.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\usbdevice.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir\UsbDeviceCdcCom.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\usbethernetclock.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\usbhost.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir\UsbHostHidCom.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir\UsbHostHidKeyboard.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir\UsbHostHidMouse.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir\UsbHostMassStorage.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\My_11065561366466422769.dir\VARIABLE.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\wc.o"
+#        "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\obj\l3_18370833379257815018.dir\wdg.o"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --no_out_extension -o "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\exe\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out"
+#        --map "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\list\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.map"
+#        --config "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\config\mb9af312.icf" --entry __iar_program_start
+#        --inline --vfe --enable_stack_usage --text_out locale --cpu=Cortex-M3
+#        --fpu=None) --diagnostics_format=sarif_stdout --dependencies=n "C:\IS
+#        Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\exe\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out.iar_deps"
+#        --dynamic_output "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0
+#        FW\example\IAR\output\release\exe\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out.iar_dynout"
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Ls016]: [stack usage analysis] the program contains at least one
+          indirect call. Example: from "Usb_Configure". A complete list of such
+          functions is in the map file.
+Warning[Ls017]: [stack usage analysis] the program contains at least one
+          instance of recursion for which stack usage analysis has not been
+          able to calculate a maximum stack depth. One function involved is
+          "SendSms". A complete list of all recursion nests is in the map file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, there are calls to deallocation functions in the
+application, and the application appears to be primarily
+optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 {  ro section .intvec };
+"P1":  place in [from 0x0 to 0x1'ffff] {  ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x1fff'e000 to 0x2000'1fff] {
+           rw,  block CSTACK,  block HEAP };
+initialize by copy {  rw };
+
+  Section            Kind         Address  Alignment      Size  Object
+  -------            ----         -------  ---------      ----  ------
+"A0":                                                    0x100
+  .intvec            ro code          0x0          4     0x100  startup_mb9af31x.o [10]
+                                  - 0x100                0x100
+
+"P1":                                                 0x1'9868
+  .text              ro code        0x100          4    0x5548  SerialHmi.o [1]
+  .text              ro code       0x5648          4     0x1b4  myfun.o [1]
+  .text              ro code       0x57fc          4     0x16c  MyUsb.o [1]
+  .text              ro code       0x5968          4      0xa6  ABImemcpy.o [13]
+  .text              ro code       0x5a0e          2      0x3a  packbits_init_single.o [13]
+  .text              ro code       0x5a48          4      0x40  sprintf.o [11]
+  .text              ro code       0x5a88          4      0x48  FltToDbl.o [12]
+  .text              ro code       0x5ad0          4     0x1aa  DblMul.o [12]
+  .text              ro code       0x5c7a          2      0x1e  xsscin.o [11]
+  .text              ro code       0x5c98          4      0x24  S32ToFlt.o [12]
+  .text              ro code       0x5cbc          4     0x118  FltDiv.o [12]
+  .text              ro code       0x5dd4          4     0x638  AT45DB161.o [1]
+  .text              ro code       0x640c          2      0x1e  strcat.o [11]
+  .text              ro code       0x642a          2       0xa  xsprout.o [11]
+  .text              ro code       0x6434          4      0x18  FltToU32.o [12]
+  .text              ro code       0x644c          4     0x10c  ProjectFunc.o [1]
+  .text              ro code       0x6558          4      0x12  strcmp.o [13]
+  .text              ro code       0x656c          4     0x590  AtlasReplacement.o [1]
+  .text              ro code       0x6afc          4    0x1f58  mmu.o [1]
+  .text              ro code       0x8a54          4      0x3a  delay.o [1]
+  .text              ro code       0x8a90          4     0x24c  DualTimer.o [1]
+  .text              ro code       0x8cdc          2      0x20  localtim64.o [11]
+  .text              ro code       0x8cfc          4     0x154  GprsUart.o [1]
+  .text              ro code       0x8e50          4      0x36  strlen.o [13]
+  .text              ro code       0x8e88          4      0x66  ABImemset.o [13]
+  .text              ro code       0x8ef0          4      0x18  strcpy.o [13]
+  .text              ro code       0x8f08          4     0x128  UsbConfig.o [2]
+  .text              ro code       0x9030          4     0xe86  usb.o [7]
+  .text              ro code       0x9eb8          4     0x7b8  usbdevice.o [7]
+  .text              ro code       0xa670          4     0x384  UsbDeviceCdcCom.o [3]
+  .text              ro code       0xa9f4          4     0xeb6  xprintffull_nomb.o [11]
+  .text              ro code       0xb8ac          4     0x1b8  Atlas_TC.o [1]
+  .text              ro code       0xba64          4      0x28  sscanf.o [11]
+  .text              ro code       0xba8c          4      0x1a  U32ToFlt.o [12]
+  .text              ro code       0xbaa8          4     0x16e  FltAddSub.o [12]
+  .text              ro code       0xbc18          4      0xd8  FltMul.o [12]
+  .text              ro code       0xbcf0          4      0x68  DblToFlt.o [12]
+  .text              ro code       0xbd58          4     0x25e  DblAddSub.o [12]
+  .text              ro code       0xbfb8          4     0x246  DblDiv.o [12]
+  .text              ro code       0xc200          4      0x36  DblToS32.o [12]
+  .text              ro code       0xc238          4      0x28  FltCmpLe.o [12]
+  .text              ro code       0xc260          4      0xf0  ppg.o [8]
+  .text              ro code       0xc350          4       0x6  ABImemclr.o [13]
+  .text              ro code       0xc358          4      0x28  FltCmpGe.o [12]
+  .text              ro code       0xc380          4    0x329c  command.o [1]
+  .text              ro code       0xf61c          4      0xe0  mktime64.o [11]
+  .text              ro code       0xf6fc          4     0x15c  xttotm64.o [11]
+  .text              ro code       0xf858          4       0x6  ABImemclr4.o [13]
+  .text              ro code       0xf860          4     0xd60  usbhost.o [7]
+  .text              ro code     0x1'05c0          4      0x64  usbethernetclock.o [7]
+  .text              ro code     0x1'0624          4      0x16  strchr.o [13]
+  .text              ro code     0x1'063c          4      0x40  xfail_s.o [11]
+  .text              ro code     0x1'067c          4      0x58  memchr.o [13]
+  .text              ro code     0x1'06d4          4      0x70  frexp.o [12]
+  .text              ro code     0x1'0744          4      0x34  DblCmpLe.o [12]
+  .text              ro code     0x1'0778          4      0x34  DblCmpGe.o [12]
+  .text              ro code     0x1'07ac          4     0x13a  ldexp.o [12]
+  .text              ro code     0x1'08e8          4      0x22  S32ToDbl.o [12]
+  .text              ro code     0x1'090c          4      0x22  DblToU32.o [12]
+  .text              ro code     0x1'0930          4      0x1c  U32ToDbl.o [12]
+  .text              ro code     0x1'094c          4     0x274  I64DivMod.o [13]
+  .text              ro code     0x1'0bc0          4     0x3b8  i2c.o [1]
+  .text              ro code     0x1'0f78          4     0xd58  xscanffull_nomb.o [11]
+  .text              ro code     0x1'1cd0          4    0x1a5c  gprs.o [1]
+  .text              ro code     0x1'372c          4     0x138  SerialPort.o [1]
+  .text              ro code     0x1'3864          4      0xcc  xDaysTo64.o [11]
+  .text              ro code     0x1'3930          4      0x32  ABImemset48.o [13]
+  .text              ro code     0x1'3964          4     0x358  UsbClassSupervisor.o [3]
+  .text              ro code     0x1'3cbc          2       0x6  abort.o [11]
+  .text              ro code     0x1'3cc4          4       0x2  I64DivZer.o [13]
+  .text              ro code     0x1'3cc8          4     0x2fc  strto64.o [12]
+  .text              ro code     0x1'3fc4          4     0x1a6  iar_Stoullx.o [11]
+  .text              ro code     0x1'416c          4      0xae  iar_Stollx.o [11]
+  .text              ro code     0x1'421c          4       0xc  XXexit.o [13]
+  .text              ro code     0x1'4228          2     0x120  iar_Stopfx.o [11]
+  .text              ro code     0x1'4348          4     0x1a8  iar_Stoflt.o [11]
+  .text              ro code     0x1'44f0          4     0x1fc  iar_Stoxflt.o [11]
+  .text              ro code     0x1'46ec          4    0x1620  main.o [10]
+  .text              ro code     0x1'5d0c          4      0x54  board.o [9]
+  .text              ro code     0x1'5d60          4     0x4b8  gpio.o [1]
+  .text              ro code     0x1'6218          4     0x6b0  PAE800.o [1]
+  .text              ro code     0x1'68c8          4     0x154  DS18B20.o [1]
+  .text              ro code     0x1'6a1c          4      0x26  FltToS32.o [12]
+  .text              ro code     0x1'6a44          4      0x94  adc.o [4]
+  .text              ro code     0x1'6ad8          4     0x15c  Atlas_C.o [1]
+  .text              ro code     0x1'6c34          4     0x3d8  PAE_I2C.o [1]
+  .text              ro code     0x1'700c          4     0x234  1wire.o [1]
+  .rodata            const       0x1'7240          4    0x11e8  SerialHmi.o [1]
+  .rodata            const       0x1'8428          4     0x258  main.o [10]
+  .rodata            const       0x1'8680          4     0x1f8  main.o [10]
+  .rodata            const       0x1'8878          4     0x1e8  gprs.o [1]
+  .text              ro code     0x1'8a60          4     0x194  UsbHostHidMouse.o [3]
+  .text              ro code     0x1'8bf4          4     0x170  UsbHostHidKeyboard.o [3]
+  .text              ro code     0x1'8d64          4     0x138  UsbHostHidCom.o [3]
+  .rodata            const       0x1'8e9c          4     0x108  command.o [1]
+  .text              ro code     0x1'8fa4          4      0xec  UsbHostMassStorage.o [3]
+  .text              ro code     0x1'9090          4      0xbc  system_mb9af31x.o [5]
+  .text              ro code     0x1'914c          4      0xb6  mfs.o [7]
+  .rodata            const       0x1'9204          4      0xb4  command.o [1]
+  .rodata            const       0x1'92b8          4      0x9c  gprs.o [1]
+  .rodata            const       0x1'9354          4      0x68  command.o [1]
+  .rodata            const       0x1'93bc          4      0x68  MyUsb.o [1]
+  .rodata            const       0x1'9424          4      0x64  mmu.o [1]
+  .rodata            const       0x1'9488          4      0x50  UsbClassSupervisor.o [3]
+  .rodata            const       0x1'94d8          4      0x50  iar_Stoullx.o [11]
+  .rodata            const       0x1'9528          4      0x48  mmu.o [1]
+  .rodata            const       0x1'9570          8      0x48  strto64.o [12]
+  .text              ro code     0x1'95b8          2      0x38  zero_init3.o [13]
+  .rodata            const       0x1'95f0          4      0x34  1wire.o [1]
+  .text              ro code     0x1'9624          4      0x34  interrupts.o [7]
+  .rodata            const       0x1'9658          4      0x30  UsbConfig.o [2]
+  .rodata            const       0x1'9688          4      0x2c  SerialHmi.o [1]
+  .rodata            const       0x1'96b4          4      0x28  xscanffull_nomb.o [11]
+  .text              ro code     0x1'96dc          4      0x28  data_init.o [13]
+  .rodata            const       0x1'9704          4      0x24  Atlas_TC.o [1]
+  .rodata            const       0x1'9728          4      0x24  xscanffull_nomb.o [11]
+  .text              ro code     0x1'974c          4      0x22  cmain.o [13]
+  .text              ro code     0x1'976e          2       0x4  exit.o [11]
+  .text              ro code     0x1'9774          4       0x4  cexit.o [13]
+  .text              ro code     0x1'9778          4       0xa  cexit_2.o [13]
+  .iar.init_table    const       0x1'9784          4      0x20  - Linker created -
+  .text              ro code     0x1'97a4          4      0x1e  cstartup_M.o [13]
+  .rodata            const       0x1'97c4          4      0x1c  UsbConfig.o [2]
+  .rodata            const       0x1'97e0          4      0x14  UsbConfig.o [2]
+  .text              ro code     0x1'97f4          4      0x10  startup_mb9af31x.o [10]
+  .rodata            const       0x1'9804          4       0x8  usbhost.o [7]
+  .rodata            const       0x1'980c          4       0x4  UsbConfig.o [2]
+  .text              ro code     0x1'9810          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9814          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9818          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'981c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9820          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9824          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9828          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'982c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9830          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9834          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9838          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'983c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9840          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9844          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9848          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'984c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9850          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9854          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9858          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'985c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9860          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9864          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9868          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'986c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9870          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9874          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9878          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'987c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9880          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9884          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9888          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'988c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9890          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9894          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'9898          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'989c          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'98a0          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'98a4          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'98a8          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'98ac          2       0x4  startup_mb9af31x.o [10]
+  .text              ro code     0x1'98b0          2       0x4  startup_mb9af31x.o [10]
+  .rodata            const       0x1'98b4                  0x0  zero_init3.o [13]
+  .rodata            const       0x1'98b4                  0x0  packbits_init_single.o [13]
+  Initializer bytes  const       0x1'98b4                 0xb4  <for P2-1>
+                               - 0x1'9968             0x1'9868
+
+"P2", part 1 of 3:                                       0x872
+  P2-1                        0x1fff'e000                0x872  <Init block>
+    .data            inited   0x1fff'e000          8      0x14  Atlas_C.o [1]
+    .data            inited   0x1fff'e014          4      0x40  AtlasReplacement.o [1]
+    .data            inited   0x1fff'e054          4     0x240  mfs.o [7]
+    .data            inited   0x1fff'e294          4     0x14c  usb.o [7]
+    .data            inited   0x1fff'e3e0          4      0x2c  UsbClassSupervisor.o [3]
+    .data            inited   0x1fff'e40c          4      0xe8  usbdevice.o [7]
+    .data            inited   0x1fff'e4f4          4      0xc8  UsbDeviceCdcCom.o [3]
+    .data            inited   0x1fff'e5bc          4     0x24c  usbhost.o [7]
+    .data            inited   0x1fff'e808          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e80c          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e810          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e814          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e818          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e81c          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e820          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e824          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e828          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e82c          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e830          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e834          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e838          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e83c          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e840          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e844          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e848          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e84c          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e850          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e854          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e858          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e85c          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e860          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e864          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e868          4       0x4  VARIABLE.o [1]
+    .data            inited   0x1fff'e86c                  0x1  ppg.o [8]
+    .data            inited   0x1fff'e86d                  0x1  VARIABLE.o [1]
+    .data            inited   0x1fff'e86e                  0x1  VARIABLE.o [1]
+    .data            inited   0x1fff'e86f                  0x1  VARIABLE.o [1]
+    .data            inited   0x1fff'e870                  0x1  VARIABLE.o [1]
+    .data            inited   0x1fff'e871                  0x1  VARIABLE.o [1]
+                            - 0x1fff'e872                0x872
+
+"P2", part 2 of 3:                                      0x18a8
+  .bss               zero     0x1fff'e878          8     0x420  command.o [1]
+  .bss               zero     0x1fff'ec98          4     0x260  GprsUart.o [1]
+  .bss               zero     0x1fff'eef8          4     0x224  command.o [1]
+  .bss               zero     0x1fff'f11c          4     0x214  gprs.o [1]
+  .bss               zero     0x1fff'f330          4     0x214  VARIABLE.o [1]
+  .bss               zero     0x1fff'f544          4     0x20c  MyUsb.o [1]
+  .bss               zero     0x1fff'f750          4     0x200  UsbDeviceCdcCom.o [3]
+  .bss               zero     0x1fff'f950          4     0x100  VARIABLE.o [1]
+  .bss               zero     0x1fff'fa50          4      0xfc  AtlasReplacement.o [1]
+  .bss               zero     0x1fff'fb4c          4      0xe4  PAE800.o [1]
+  .bss               zero     0x1fff'fc30          4      0x64  SerialHmi.o [1]
+  .bss               zero     0x1fff'fc94          4      0x60  UsbHostHidCom.o [3]
+  .bss               zero     0x1fff'fcf4          4      0x48  gpio.o [1]
+  .bss               zero     0x1fff'fd3c          4      0x40  VARIABLE.o [1]
+  .bss               zero     0x1fff'fd7c          4      0x38  gprs.o [1]
+  .bss               zero     0x1fff'fdb4          4      0x38  UsbHostMassStorage.o [3]
+  .bss               zero     0x1fff'fdec          4      0x30  UsbHostHidKeyboard.o [3]
+  .bss               zero     0x1fff'fe1c          4      0x2c  mmu.o [1]
+  .bss               zero     0x1fff'fe48          4      0x2c  UsbHostHidMouse.o [3]
+  .bss               zero     0x1fff'fe74          4      0x2c  VARIABLE.o [1]
+  .bss               zero     0x1fff'fea0          4      0x2c  xttotm64.o [11]
+  .bss               zero     0x1fff'fecc          4      0x24  SerialHmi.o [1]
+  .bss               zero     0x1fff'fef0          4      0x24  SerialHmi.o [1]
+  .bss               zero     0x1fff'ff14          4      0x20  SerialPort.o [1]
+  .bss               zero     0x1fff'ff34          4      0x1c  DS18B20.o [1]
+  .bss               zero     0x1fff'ff50          4      0x14  SerialHmi.o [1]
+  .bss               zero     0x1fff'ff64          4      0x14  VARIABLE.o [1]
+  .bss               zero     0x1fff'ff78          4      0x14  VARIABLE.o [1]
+  .bss               zero     0x1fff'ff8c          4      0x10  DualTimer.o [1]
+  .bss               zero     0x1fff'ff9c          4       0xb  UsbHostMassStorage.o [3]
+  .bss               zero     0x1fff'ffa7                  0x1  AtlasReplacement.o [1]
+  .bss               zero     0x1fff'ffa8          8       0x8  1wire.o [1]
+  .bss               zero     0x1fff'ffb0          8       0x8  DualTimer.o [1]
+  .bss               zero     0x1fff'ffb8          4       0x8  gpio.o [1]
+  .bss               zero     0x1fff'ffc0          8       0x8  VARIABLE.o [1]
+  .bss               zero     0x1fff'ffc8          8       0x8  VARIABLE.o [1]
+  .bss               zero     0x1fff'ffd0          8       0x8  VARIABLE.o [1]
+  .bss               zero     0x1fff'ffd8          8       0x8  VARIABLE.o [1]
+  .bss               zero     0x1fff'ffe0          4       0x8  VARIABLE.o [1]
+  .bss               zero     0x1fff'ffe8          4       0x8  VARIABLE.o [1]
+  .bss               zero     0x1fff'fff0          4       0x4  1wire.o [1]
+  .bss               zero     0x1fff'fff4          2       0x4  gpio.o [1]
+  .bss               zero     0x1fff'fff8          4       0x4  GprsUart.o [1]
+  .bss               zero     0x1fff'fffc          4       0x4  MyUsb.o [1]
+  .bss               zero     0x2000'0000          4       0x4  PAE800.o [1]
+  .bss               zero     0x2000'0004          4       0x4  PAE800.o [1]
+  .bss               zero     0x2000'0008                  0x4  SerialHmi.o [1]
+  .bss               zero     0x2000'000c          4       0x4  SerialPort.o [1]
+  .bss               zero     0x2000'0010          4       0x4  usb.o [7]
+  .bss               zero     0x2000'0014          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0018          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'001c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0020          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0024          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0028          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'002c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0030          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0034          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0038          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'003c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0040          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0044          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0048          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'004c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0050          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0054          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0058          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'005c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0060          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0064          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0068          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'006c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0070          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0074          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0078          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'007c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0080          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0084          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0088          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'008c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0090          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0094          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'0098          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'009c          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00a0          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00a4          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00a8          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00ac          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00b0          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00b4          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00b8          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00bc          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00c0          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00c4          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00c8          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00cc          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00d0          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00d4          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00d8          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00dc          4       0x4  VARIABLE.o [1]
+  .bss               zero     0x2000'00e0          4       0x4  xfail_s.o [11]
+  .bss               zero     0x2000'00e4                  0x3  i2c.o [1]
+  .bss               zero     0x2000'00e7                  0x3  PAE800.o [1]
+  .bss               zero     0x2000'00ea                  0x3  PAE_I2C.o [1]
+  .bss               zero     0x2000'00ed                  0x1  DS18B20.o [1]
+  .bss               zero     0x2000'00ee                  0x1  gprs.o [1]
+  .bss               zero     0x2000'00ef                  0x1  gprs.o [1]
+  .bss               zero     0x2000'00f0                  0x1  GprsUart.o [1]
+  .bss               zero     0x2000'00f1                  0x1  i2c.o [1]
+  .bss               zero     0x2000'00f2                  0x1  mmu.o [1]
+  .bss               zero     0x2000'00f3                  0x1  PAE800.o [1]
+  .bss               zero     0x2000'00f4                  0x1  PAE800.o [1]
+  .bss               zero     0x2000'00f5                  0x1  ppg.o [8]
+  .bss               zero     0x2000'00f6                  0x1  usb.o [7]
+  .bss               zero     0x2000'00f7                  0x1  usbethernetclock.o [7]
+  .bss               zero     0x2000'00f8                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00f9                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00fa                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00fb                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00fc                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00fd                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00fe                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'00ff                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0100                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0101                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0102                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0103                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0104                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0105                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0106                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0107                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0108                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0109                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'010a                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'010b                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'010c                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'010d                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'010e                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'010f                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0110                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0111                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0112                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0113                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0114                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0115                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0116                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0117                  0x1  VARIABLE.o [1]
+  .bss               zero     0x2000'0118                  0x1  VARIABLE.o [1]
+                            - 0x2000'0119               0x18a5
+
+"P2", part 3 of 3:                                       0x400
+  CSTACK                      0x2000'0120          8     0x400  <Block>
+    CSTACK           uninit   0x2000'0120                0x400  <Block tail>
+                            - 0x2000'0520                0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+     0x1'9968     0x1'ffff  0x6698
+  0x1fff'e872  0x1fff'e873     0x2
+  0x2000'011c  0x2000'011f     0x4
+  0x2000'0520  0x2000'1fff  0x1ae0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x18a1:
+          0x1fff'e878  0x18a1
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xb4 (8% of destination):
+             0x1'98b4    0xb4
+    1 destination range, total size 0x872:
+          0x1fff'e000   0x872
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry                896        896
+  Uncalled function            344      1'836
+
+
+Program entry
+  "__iar_program_start": 0x1'97a5
+
+  Maximum call chain                            *?* 896  bytes
+    (** call graph contains recursive functions (example: "SendSms")
+                            indirect calls (example: "Usb_Configure") **)
+
+    "__iar_program_start"                             0
+    "__cmain"                                         0
+    "main"                                           40
+    "MobileRoutine"                                 224
+    "AnalyzeResponse"                                24
+    "Command"                                        72
+    "ArrangeCurrentStatus2PasteBuff"                136
+    "Gmt2LocalTimeStamp"                             96
+    "sprintf"                                        32
+    "_PrintfFullNoMb"                               232
+    "_LitobFullNoMb" in xprintffull_nomb.o [11]      40
+    "_LC" in xprintffull_nomb.o [11]                  0
+
+Uncalled function
+  "MFS3RX_IRQHandler": 0x6989
+
+  Maximum call chain                               16  bytes
+
+    "MFS3RX_IRQHandler"                            16
+
+Uncalled function
+  "DT_Handler": 0x8a91
+
+  Maximum call chain                                8  bytes
+
+    "DT_Handler"                                    8
+
+Uncalled function
+  "MFS1RX_IRQHandler": 0x8cfd
+
+  Maximum call chain                               12  bytes
+
+    "MFS1RX_IRQHandler"                            12
+
+Uncalled function
+  "ADC0_IRQHandler": 0x1'9625
+
+  Maximum call chain                                0  bytes
+
+    "ADC0_IRQHandler"                               0
+
+Uncalled function
+  "MFS0TX_IRQHandler": 0x1'9627
+
+  Maximum call chain                            *?* 24  bytes
+    (** call graph contains indirect calls (example: "MfsIrqHandlerTx") **)
+
+    "MFS0TX_IRQHandler"                              0
+    "MfsIrqHandlerTx"                               24
+
+Uncalled function
+  "USB0F_Handler": 0x1'9631
+
+  Maximum call chain                            *?* 24  bytes
+    (** call graph contains indirect calls (example: "UsbIrqHandlerF") **)
+
+    "USB0F_Handler"                                  0
+    "UsbIrqHandlerF"                                24
+
+Uncalled function
+  "USB0_Handler": 0x1'963d
+
+  Maximum call chain                            *?* 52  bytes
+    (** call graph contains indirect calls (example: "UsbIrqHandler") **)
+
+    "USB0_Handler"                                   0
+    "UsbIrqHandler"                                 24
+    "Usb_TimeoutHandler" in usb.o [7]               24
+    "UsbGetInternDataPtr" in usb.o [7]               4
+
+Uncalled function
+  "MFS0RX_IRQHandler": 0x5375
+
+  Maximum call chain                               16  bytes
+
+    "MFS0RX_IRQHandler"                            16
+
+Uncalled function
+  "MFS2RX_IRQHandler": 0x1'372d
+
+  Maximum call chain                               12  bytes
+
+    "MFS2RX_IRQHandler"                            12
+
+Uncalled function
+  "SystemInit": 0x1'9091
+
+  Maximum call chain                                0  bytes
+
+    "SystemInit"                                    0
+
+Uncalled function
+  "ReturnedConfigurationDescriptor": 0x1'3b85
+
+  Maximum call chain                               68  bytes
+
+    "ReturnedConfigurationDescriptor"              32
+    "UsbHost_SetupRequest"                         24
+    "UsbHost_TransferDataToFifo"                   12
+
+Uncalled function
+  "ReturnedDeviceDescriptor": 0x1'3b25
+
+  Maximum call chain                               68  bytes
+
+    "ReturnedDeviceDescriptor"                     32
+    "UsbHost_SetupRequest"                         24
+    "UsbHost_TransferDataToFifo"                   12
+
+Uncalled function
+  "UsbClassSupervisor_SysTickHandler": 0x1'3a31
+
+  Maximum call chain                            *?* 92  bytes
+    (** call graph contains indirect calls (example: "UsbClassSupervisor_SysTickHandler") **)
+
+    "UsbClassSupervisor_SysTickHandler"             32
+    "UsbHost_SetConfigurationDescriptor"            24
+    "UsbHost_SetupRequest"                          24
+    "UsbHost_TransferDataToFifo"                    12
+
+Uncalled function
+  "UsbConfig_Device0Vbus" in UsbConfig.o [2]: 0x8f75
+
+  Maximum call chain                                0  bytes
+
+    "UsbConfig_Device0Vbus" in UsbConfig.o [2]      0
+
+Uncalled function
+  "UsbConfig_UsbDeviceClassesInitCallback0" in UsbConfig.o [2]: 0x8f09
+
+  Maximum call chain                              104  bytes
+
+    "UsbConfig_UsbDeviceClassesInitCallback0" in UsbConfig.o [2]
+                                                    0
+    "UsbDeviceCdcCom_Init"                         72
+    "UsbDevice_ReceiveData"                        16
+    "Usb_HalReceive"                               16
+
+Uncalled function
+  "ConfigChangeCallback" in usbdevice.o [7]: 0xa185
+
+  Maximum call chain                            *?* 20  bytes
+    (** call graph contains indirect calls (example: "ConfigChangeCallback" in usbdevice.o [7]) **)
+
+    "ConfigChangeCallback" in usbdevice.o [7]       16
+    "UsbDeviceGetInternDataPtr" in usbdevice.o [7]
+                                                     4
+
+Uncalled function
+  "ControlRxCallback" in usbdevice.o [7]: 0xa0f7
+
+  Maximum call chain                            *?* 104  bytes
+    (** call graph contains indirect calls (example: "ControlRxCallback" in usbdevice.o [7]) **)
+
+    "ControlRxCallback" in usbdevice.o [7]           88
+    "Usb_HalReceive"                                 16
+
+Uncalled function
+  "ControlTxCallback" in usbdevice.o [7]: 0xa14d
+
+  Maximum call chain                                4  bytes
+
+    "ControlTxCallback" in usbdevice.o [7]          4
+
+Uncalled function
+  "EndpointContinueRxCallback" in usbdevice.o [7]: 0x9f73
+
+  Maximum call chain                            *?* 32  bytes
+    (** call graph contains indirect calls (example: "EndpointContinueRxCallback" in usbdevice.o [7]) **)
+
+    "EndpointContinueRxCallback" in usbdevice.o [7]
+                                                    16
+    "Usb_HalReceive"                                16
+
+Uncalled function
+  "EndpointContinueTxCallback" in usbdevice.o [7]: 0x9eef
+
+  Maximum call chain                            *?* 32  bytes
+    (** call graph contains indirect calls (example: "EndpointContinueTxCallback" in usbdevice.o [7]) **)
+
+    "EndpointContinueTxCallback" in usbdevice.o [7]
+                                                    16
+    "Usb_HalSend"                                   16
+
+Uncalled function
+  "SetupRxCallback" in usbdevice.o [7]: 0xa1b3
+
+  Maximum call chain                            *?* 344  bytes
+    (** call graph contains indirect calls (example: "SetupRxCallback" in usbdevice.o [7]) **)
+
+    "SetupRxCallback" in usbdevice.o [7]            304
+    "UsbDevice_SendData"                             24
+    "Usb_HalSend"                                    16
+
+Uncalled function
+  "UsbDevice_InitCallback": 0xa56f
+
+  Maximum call chain                            *?* 44  bytes
+    (** call graph contains indirect calls (example: "UsbDevice_InitCallback") **)
+
+    "UsbDevice_InitCallback"                        24
+    "Usb_SetupHalEndpoint"                          20
+
+Uncalled function
+  "ConfCallback" in UsbDeviceCdcCom.o [3]: 0xa671
+
+  Maximum call chain                               12  bytes
+
+    "ConfCallback" in UsbDeviceCdcCom.o [3]         8
+    "UsbDevice_GetStatus"                           4
+
+Uncalled function
+  "DecodeSetupRequest" in UsbDeviceCdcCom.o [3]: 0xa829
+
+  Maximum call chain                               48  bytes
+
+    "DecodeSetupRequest" in UsbDeviceCdcCom.o [3]
+                                                    8
+    "UsbDevice_SendDataControl"                    24
+    "Usb_HalSend"                                  16
+
+Uncalled function
+  "RxTxCallback" in UsbDeviceCdcCom.o [3]: 0xa687
+
+  Maximum call chain                               80  bytes
+
+    "RxTxCallback" in UsbDeviceCdcCom.o [3]        40
+    "UsbDevice_SendData"                           24
+    "Usb_HalSend"                                  16
+
+Uncalled function
+  "SetLineCoding" in UsbDeviceCdcCom.o [3]: 0xa89d
+
+  Maximum call chain                            *?* 8  bytes
+    (** call graph contains indirect calls (example: "SetLineCoding" in UsbDeviceCdcCom.o [3]) **)
+
+    "SetLineCoding" in UsbDeviceCdcCom.o [3]        8
+
+Uncalled function
+  "EnumerationStateMachine" in usbhost.o [7]: 0xf9b3
+
+  Maximum call chain                               68  bytes
+
+    "EnumerationStateMachine" in usbhost.o [7]     32
+    "UsbHost_SetupRequest"                         24
+    "UsbHost_TransferDataToFifo"                   12
+
+Uncalled function
+  "StallCompletionEp0" in usbhost.o [7]: 0xfbc7
+
+  Maximum call chain                               36  bytes
+
+    "StallCompletionEp0" in usbhost.o [7]           0
+    "UsbHost_SetupRequest"                         24
+    "UsbHost_TransferDataToFifo"                   12
+
+Uncalled function
+  "UsbHost_SetupComplete" in usbhost.o [7]: 0xfbe1
+
+  Maximum call chain                            *?* 12  bytes
+    (** call graph contains indirect calls (example: "UsbHost_SetupComplete" in usbhost.o [7]) **)
+
+    "UsbHost_SetupComplete" in usbhost.o [7]         8
+    "UsbHostGetInternDataPtr" in usbhost.o [7]       4
+
+Uncalled function
+  "ConnectionCallback": 0xfbff
+
+  Maximum call chain                               28  bytes
+
+    "ConnectionCallback"                           24
+    "UsbHostGetInternDataPtr" in usbhost.o [7]      4
+
+Uncalled function
+  "UsbHost_CompletionCallback": 0xfecb
+
+  Maximum call chain                            *?* 60  bytes
+    (** call graph contains indirect calls (example: "UsbHost_CompletionCallback") **)
+
+    "UsbHost_CompletionCallback"                    24
+    "UsbHost_SetupRequest"                          24
+    "UsbHost_TransferDataToFifo"                    12
+
+Uncalled function
+  "UsbHost_InitCallback": 0x1'03cf
+
+  Maximum call chain                               28  bytes
+
+    "UsbHost_InitCallback"                         16
+    "Usb_GetEndpointPtr"                           12
+
+Uncalled function
+  "UsbHost_SofCallback": 0x1'01f7
+
+  Maximum call chain                               48  bytes
+
+    "UsbHost_SofCallback"                          32
+    "UsbHost_EndpointFromNumber"                   16
+
+Uncalled function
+  "UsbHostHidCom_DataReceivedHandler": 0x1'8d65
+
+  Maximum call chain                            *?* 8  bytes
+    (** call graph contains indirect calls (example: "UsbHostHidCom_DataReceivedHandler") **)
+
+    "UsbHostHidCom_DataReceivedHandler"             8
+
+Uncalled function
+  "UsbHostHidCom_DataSentHandler": 0x1'8d7d
+
+  Maximum call chain                            *?* 8  bytes
+    (** call graph contains indirect calls (example: "UsbHostHidCom_DataSentHandler") **)
+
+    "UsbHostHidCom_DataSentHandler"                 8
+
+Uncalled function
+  "UsbHostHidCom_DeinitHandler": 0x1'8e7b
+
+  Maximum call chain                                0  bytes
+
+    "UsbHostHidCom_DeinitHandler"                   0
+
+Uncalled function
+  "UsbHostHidCom_InitHandler": 0x1'8d95
+
+  Maximum call chain                               60  bytes
+
+    "UsbHostHidCom_InitHandler"                    40
+    "UsbHost_AddHostEndpoint"                      20
+
+Uncalled function
+  "UsbHostHidKeyboard_DataReceivedCallback" in UsbHostHidKeyboard.o [3]: 0x1'8ce5
+
+  Maximum call chain                            *?* 16  bytes
+    (** call graph contains indirect calls (example: "UsbHostHidKeyboard_DataReceivedCallback" in UsbHostHidKeyboard.o [3]) **)
+
+    "UsbHostHidKeyboard_DataReceivedCallback" in UsbHostHidKeyboard.o [3]
+                                                    16
+
+Uncalled function
+  "UsbHostHidKeyboard_DeinitHandler": 0x1'8cd9
+
+  Maximum call chain                                0  bytes
+
+    "UsbHostHidKeyboard_DeinitHandler"              0
+
+Uncalled function
+  "UsbHostHidKeyboard_InitHandler": 0x1'8bf5
+
+  Maximum call chain                               68  bytes
+
+    "UsbHostHidKeyboard_InitHandler"               48
+    "UsbHost_AddHostEndpoint"                      20
+
+Uncalled function
+  "UsbHostHidMouse_DataReceivedCallback" in UsbHostHidMouse.o [3]: 0x1'8b25
+
+  Maximum call chain                            *?* 52  bytes
+    (** call graph contains indirect calls (example: "UsbHostHidMouse_DataReceivedCallback" in UsbHostHidMouse.o [3]) **)
+
+    "UsbHostHidMouse_DataReceivedCallback" in UsbHostHidMouse.o [3]
+                                                    44
+    "__aeabi_memcpy4"                                8
+
+Uncalled function
+  "UsbHostHidMouse_DeinitHandler": 0x1'8b1b
+
+  Maximum call chain                                0  bytes
+
+    "UsbHostHidMouse_DeinitHandler"                 0
+
+Uncalled function
+  "UsbHostHidMouse_InitHandler": 0x1'8a61
+
+  Maximum call chain                               60  bytes
+
+    "UsbHostHidMouse_InitHandler"                  40
+    "UsbHost_AddHostEndpoint"                      20
+
+Uncalled function
+  "UsbHostMassStorage_DeinitHandler": 0x1'907d
+
+  Maximum call chain                                0  bytes
+
+    "UsbHostMassStorage_DeinitHandler"              0
+
+Uncalled function
+  "UsbHostMassStorage_InitHandler": 0x1'8fa5
+
+  Maximum call chain                               60  bytes
+
+    "UsbHostMassStorage_InitHandler"               40
+    "UsbHost_AddHostEndpoint"                      20
+
+The following functions make up recursion nest 0, which has no maximum recursion depth specified:
+
+  "SendSms": 0x1'2f65
+
+The following functions perform unknown indirect calls:
+
+  "ConfigChangeCallback" in usbdevice.o [7]: 0xa185
+  "ControlRxCallback" in usbdevice.o [7]: 0xa0f7
+  "EndpointContinueRxCallback" in usbdevice.o [7]: 0x9f73
+  "EndpointContinueTxCallback" in usbdevice.o [7]: 0x9eef
+  "MfsIrqHandlerTx": 0x1'914d
+  "SetLineCoding" in UsbDeviceCdcCom.o [3]: 0xa89d
+  "SetupRxCallback" in usbdevice.o [7]: 0xa1b3
+  "UsbClassSupervisor_Deinit": 0x1'39c5
+  "UsbClassSupervisor_SysTickHandler": 0x1'3a31
+  "UsbDevice_InitCallback": 0xa56f
+  "UsbHostHidCom_DataReceivedHandler": 0x1'8d65
+  "UsbHostHidCom_DataSentHandler": 0x1'8d7d
+  "UsbHostHidKeyboard_DataReceivedCallback" in UsbHostHidKeyboard.o [3]: 0x1'8ce5
+  "UsbHostHidMouse_DataReceivedCallback" in UsbHostHidMouse.o [3]: 0x1'8b25
+  "UsbHost_CompletionCallback": 0xfecb
+  "UsbHost_SetupComplete" in usbhost.o [7]: 0xfbe1
+  "UsbIrqHandler": 0x9c9b
+  "UsbIrqHandlerF": 0x9c29
+  "Usb_Configure": 0x9069
+  "Usb_DeinitDeviceMode" in usb.o [7]: 0x960b
+  "Usb_DeinitHostMode" in usb.o [7]: 0x97e9
+  "Usb_InitDeviceMode" in usb.o [7]: 0x94d9
+  "Usb_InitHostMode" in usb.o [7]: 0x9683
+  "Usb_SwitchUsb": 0x941d
+  "Usb_TimeoutHandler" in usb.o [7]: 0x9a9d
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\My_11065561366466422769.dir: [1]
+    1wire.o                     564       52       12
+    AT45DB161.o               1'592
+    AtlasReplacement.o        1'424        5      317
+    Atlas_C.o                   348        1       20
+    Atlas_TC.o                  440       36
+    DS18B20.o                   340                29
+    DualTimer.o                 588                24
+    GprsUart.o                  340               613
+    MyUsb.o                     364      104      528
+    PAE800.o                  1'712               241
+    PAE_I2C.o                   984                 3
+    ProjectFunc.o               268
+    SerialHmi.o              21'832    4'628      196
+    SerialPort.o                312                36
+    VARIABLE.o                             9    1'326
+    command.o                12'956      548    1'604
+    delay.o                      58
+    gpio.o                    1'208                84
+    gprs.o                    6'748      644      590
+    i2c.o                       952                 4
+    mmu.o                     8'024      172       45
+    myfun.o                     436
+    -------------------------------------------------
+    Total:                   61'490    6'199    5'672
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\UsbConfig_13880776959982941018.dir: [2]
+    UsbConfig.o                 296      100
+    -------------------------------------------------
+    Total:                      296      100
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir: [3]
+    UsbClassSupervisor.o        856       84       44
+    UsbDeviceCdcCom.o           900       17      712
+    UsbHostHidCom.o             312                96
+    UsbHostHidKeyboard.o        368                48
+    UsbHostHidMouse.o           404                44
+    UsbHostMassStorage.o        236                67
+    -------------------------------------------------
+    Total:                    3'076      101    1'011
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\adc_14570598181400393537.dir: [4]
+    adc.o                       148
+    -------------------------------------------------
+    Total:                      148
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\common_14919461937644757070.dir: [5]
+    system_mb9af31x.o           188
+    -------------------------------------------------
+    Total:                      188
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\elm-chan.org_14072396974245291179.dir: [6]
+    -------------------------------------------------
+    Total:
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\l3_18370833379257815018.dir: [7]
+    interrupts.o                 52
+    mfs.o                       182       48      576
+    usb.o                     3'718       28      337
+    usbdevice.o               1'976       19      232
+    usbethernetclock.o          100                 1
+    usbhost.o                 3'424       57      588
+    -------------------------------------------------
+    Total:                    9'452      152    1'734
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\ppg_314900825880331553.dir: [8]
+    ppg.o                       240                 2
+    -------------------------------------------------
+    Total:                      240                 2
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\sk-fm3-48pmc-usbstick_846271940431841289.dir: [9]
+    board.o                      84
+    -------------------------------------------------
+    Total:                       84
+
+C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\source_files_8152044814988207902.dir: [10]
+    main.o                    5'664    1'104
+    startup_mb9af31x.o          436
+    -------------------------------------------------
+    Total:                    6'100    1'104
+
+dl7M_tln.a: [11]
+    abort.o                       6
+    exit.o                        4
+    iar_Stoflt.o                424
+    iar_Stollx.o                174
+    iar_Stopfx.o                288
+    iar_Stoullx.o               422       80
+    iar_Stoxflt.o               508
+    localtim64.o                 32
+    mktime64.o                  224
+    sprintf.o                    64
+    sscanf.o                     40
+    strcat.o                     30
+    xDaysTo64.o                 204
+    xfail_s.o                    64                 4
+    xprintffull_nomb.o        3'766
+    xscanffull_nomb.o         3'416       76
+    xsprout.o                    10
+    xsscin.o                     30
+    xttotm64.o                  348                44
+    -------------------------------------------------
+    Total:                   10'054      156       48
+
+m7M_tl.a: [12]
+    DblAddSub.o                 606
+    DblCmpGe.o                   52
+    DblCmpLe.o                   52
+    DblDiv.o                    582
+    DblMul.o                    426
+    DblToFlt.o                  104
+    DblToS32.o                   54
+    DblToU32.o                   34
+    FltAddSub.o                 366
+    FltCmpGe.o                   40
+    FltCmpLe.o                   40
+    FltDiv.o                    280
+    FltMul.o                    216
+    FltToDbl.o                   72
+    FltToS32.o                   38
+    FltToU32.o                   24
+    S32ToDbl.o                   34
+    S32ToFlt.o                   36
+    U32ToDbl.o                   28
+    U32ToFlt.o                   26
+    frexp.o                     112
+    ldexp.o                     314
+    strto64.o                   764       72
+    -------------------------------------------------
+    Total:                    4'300       72
+
+rt7M_tl.a: [13]
+    ABImemclr.o                   6
+    ABImemclr4.o                  6
+    ABImemcpy.o                 166
+    ABImemset.o                 102
+    ABImemset48.o                50
+    I64DivMod.o                 628
+    I64DivZer.o                   2
+    XXexit.o                     12
+    cexit.o                       4
+    cexit_2.o                    10
+    cmain.o                      34
+    cstartup_M.o                 30
+    data_init.o                  40
+    memchr.o                     88
+    packbits_init_single.o       58
+    strchr.o                     22
+    strcmp.o                     18
+    strcpy.o                     24
+    strlen.o                     54
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                    1'410
+
+    Gaps                         48        6        4
+    Linker created                        32    1'024
+-----------------------------------------------------
+    Grand Total:             96'886    7'922    9'495
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base      0x1'9784           --   Gb  - Linker created -
+.iar.init_table$$Limit     0x1'97a4           --   Gb  - Linker created -
+?main                      0x1'974d          Code  Gb  cmain.o [13]
+ADC0_IRQHandler            0x1'9625     0x2  Code  Gb  interrupts.o [7]
+ADC1_IRQHandler            0x1'9885          Code  Wk  startup_mb9af31x.o [10]
+ActivateNeedToLogFlag   0x1fff'e86d     0x1  Data  Gb  VARIABLE.o [1]
+Adc_AdcHardwareInit        0x1'6a45    0x64  Code  Gb  adc.o [4]
+Adc_Read                   0x1'6aa9    0x1c  Code  Gb  adc.o [4]
+AlarmFIFO                    0x572b    0x22  Code  Gb  myfun.o [1]
+AlarmFIFOBuff           0x1fff'ff64    0x14  Data  Gb  VARIABLE.o [1]
+AlarmRegister24Bit      0x2000'00b4     0x4  Data  Gb  VARIABLE.o [1]
+AlarmRegisterForSMS     0x2000'00b8     0x4  Data  Gb  VARIABLE.o [1]
+AnaOutProportionalFactor
+                        0x1fff'e864     0x4  Data  Gb  VARIABLE.o [1]
+AnaPressureAval         0x2000'00c8     0x4  Data  Gb  VARIABLE.o [1]
+AnalogPressureBypassLevel
+                        0x2000'0074     0x4  Data  Gb  VARIABLE.o [1]
+AnalogPressureCipLevel  0x2000'0078     0x4  Data  Gb  VARIABLE.o [1]
+AnalogPressureStartLevel
+                        0x2000'006c     0x4  Data  Gb  VARIABLE.o [1]
+AnalogPressureStopLevel
+                        0x2000'0070     0x4  Data  Gb  VARIABLE.o [1]
+AnalyzeResponse            0x1'2849   0x564  Code  Gb  gprs.o [1]
+ArrangeCurrentStatus2PasteBuff
+                             0xc381   0x132  Code  Gb  command.o [1]
+AtlasConductivity       0x1fff'e010     0x4  Data  Gb  Atlas_C.o [1]
+AtlasReplacementBuff    0x1fff'fa50    0xfc  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementByteReceiveFlag
+                        0x1fff'e01c     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementCommTimeOutSec
+                        0x1fff'e016     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementDebugFlag
+                        0x1fff'e01b     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementEchoFlag
+                        0x1fff'e018     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementReceiveByte
+                        0x1fff'e014     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementReceiveCounter
+                        0x1fff'e015     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementReceivePacketCompleteFlag
+                        0x1fff'e017     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementResponseFlag
+                        0x1fff'e019     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasReplacementStartCodeFlag
+                        0x1fff'e01a     0x1  Data  Gb  AtlasReplacement.o [1]
+AtlasTemperature        0x1fff'e044     0x4  Data  Gb  AtlasReplacement.o [1]
+AtlasTemperatureContinuousErrorSec
+                        0x1fff'e048     0x4  Data  Gb  AtlasReplacement.o [1]
+AtlasTemperatureErrorFlag
+                        0x1fff'e01d     0x1  Data  Gb  AtlasReplacement.o [1]
+AutoModeOperations         0x1'4ddd   0xa8c  Code  Gb  main.o [10]
+AverageConductivity     0x1fff'e808     0x4  Data  Gb  VARIABLE.o [1]
+AverageConductivityAccumulator
+                        0x1fff'e008     0x8  Data  Gb  Atlas_C.o [1]
+AverageConductivityCounter
+                        0x1fff'e000     0x1  Data  Gb  Atlas_C.o [1]
+AverageFlow             0x2000'0028     0x4  Data  Gb  VARIABLE.o [1]
+AverageFlowAccumulator  0x2000'002c     0x4  Data  Gb  VARIABLE.o [1]
+AverageFlowCounter      0x2000'0108     0x1  Data  Gb  VARIABLE.o [1]
+AverageVoltagePure      0x2000'00a4     0x4  Data  Gb  VARIABLE.o [1]
+AverageVoltagePureFlag  0x2000'0100     0x1  Data  Gb  VARIABLE.o [1]
+AverageVoltageWaste     0x2000'00a8     0x4  Data  Gb  VARIABLE.o [1]
+AverageVoltageWasteFlag
+                        0x2000'0101     0x1  Data  Gb  VARIABLE.o [1]
+BT0_7_IRQHandler           0x1'9895          Code  Wk  startup_mb9af31x.o [10]
+Board_Init                 0x1'5d0d    0x54  Code  Gb  board.o [9]
+BufferToPage                 0x61f7    0x3a  Code  Gb  AT45DB161.o [1]
+BusFault_Handler           0x1'981d          Code  Wk  startup_mb9af31x.o [10]
+BuzzerFlag              0x2000'0110     0x1  Data  Gb  VARIABLE.o [1]
+BypassOperation            0x1'4b69   0x18c  Code  Gb  main.o [10]
+CIP_DosingOffTimeInSec  0x1fff'e830     0x4  Data  Gb  VARIABLE.o [1]
+CIP_DosingOnTimeInSec   0x1fff'e82c     0x4  Data  Gb  VARIABLE.o [1]
+CIP_DosingRunTimeInSec  0x2000'00ac     0x4  Data  Gb  VARIABLE.o [1]
+CIP_DosingTotalFlowTimerFlag
+                        0x2000'0106     0x1  Data  Gb  VARIABLE.o [1]
+CIP_DosingTotalTimeInSec
+                        0x1fff'e834     0x4  Data  Gb  VARIABLE.o [1]
+CIP_FavorableTime       0x2000'0080     0x4  Data  Gb  VARIABLE.o [1]
+CIP_FavorableTimeGraceMin
+                        0x2000'0084     0x4  Data  Gb  VARIABLE.o [1]
+CIP_FlushTimeInSec      0x1fff'e858     0x4  Data  Gb  VARIABLE.o [1]
+CIP_LowerLimitCycle     0x2000'007c     0x4  Data  Gb  VARIABLE.o [1]
+CIP_PulseOffTimeInSec   0x1fff'e840     0x4  Data  Gb  VARIABLE.o [1]
+CIP_PulseOnTimeInSec    0x1fff'e83c     0x4  Data  Gb  VARIABLE.o [1]
+CIP_PulseRunTimeInSec   0x2000'00b0     0x4  Data  Gb  VARIABLE.o [1]
+CIP_PulseTotalTimeInSec
+                        0x1fff'e838     0x4  Data  Gb  VARIABLE.o [1]
+CIP_PulsedTotalFlowTimerFlag
+                        0x2000'0107     0x1  Data  Gb  VARIABLE.o [1]
+CIP_PumpRunTimeInSec    0x2000'0064     0x4  Data  Gb  VARIABLE.o [1]
+CIP_WaitTimeInSec       0x1fff'e844     0x4  Data  Gb  VARIABLE.o [1]
+CSTACK$$Base            0x2000'0120           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0520           --   Gb  - Linker created -
+CSV_Handler                0x1'9835          Code  Wk  startup_mb9af31x.o [10]
+CabinetHighTemperatureSetVal
+                        0x1fff'e818     0x4  Data  Gb  VARIABLE.o [1]
+CabinetTemperature      0x1fff'e814     0x4  Data  Gb  VARIABLE.o [1]
+CheckAndInsertDailyRecord
+                             0x6afd   0x3ce  Code  Gb  mmu.o [1]
+CheckAuthority               0xc4b3    0x52  Code  Gb  command.o [1]
+CheckGPRSResponse          0x1'2e5d    0x90  Code  Gb  gprs.o [1]
+CheckKeyPress                0x3011  0x2202  Code  Gb  SerialHmi.o [1]
+CheckSerialHmiKeyInput        0x101    0x74  Code  Gb  SerialHmi.o [1]
+CheckUsbStage                0x57fd   0x10a  Code  Gb  MyUsb.o [1]
+CheckUsbStage::UsbStage
+                        0x1fff'f548     0x1  Data  Lc  MyUsb.o [1]
+ChipErase                    0x5dd5    0x3e  Code  Gb  AT45DB161.o [1]
+ClearAlarmDate               0x6ecb    0x56  Code  Gb  mmu.o [1]
+ClearAllFlow                 0x656d    0x1e  Code  Gb  AtlasReplacement.o [1]
+ClearDateTable               0x6f21    0x56  Code  Gb  mmu.o [1]
+Command                      0xc579  0x2d4a  Code  Gb  command.o [1]
+CommandFormat           0x1fff'e878   0x420  Data  Gb  command.o [1]
+CommunicationMediaCurrent
+                        0x2000'010e     0x1  Data  Gb  VARIABLE.o [1]
+CommunicationMediaPrefered
+                        0x1fff'e871     0x1  Data  Gb  VARIABLE.o [1]
+ConfCallback                 0xa671    0x16  Code  Lc  UsbDeviceCdcCom.o [3]
+ConfigChangeCallback         0xa185    0x2e  Code  Lc  usbdevice.o [7]
+ConfigureVariable            0x6f77    0x7c  Code  Gb  mmu.o [1]
+ConnectionCallback           0xfbff   0x252  Code  Gb  usbhost.o [7]
+ControlRxCallback            0xa0f7    0x56  Code  Lc  usbdevice.o [7]
+ControlTxCallback            0xa14d    0x38  Code  Lc  usbdevice.o [7]
+CopyBuff                0x1fff'f950   0x100  Data  Gb  VARIABLE.o [1]
+CurDigitalInput         0x1fff'fcf4     0x1  Data  Gb  gpio.o [1]
+CurPos                  0x1fff'fee5     0x1  Data  Gb  SerialHmi.o [1]
+CurrentCyclePrepurifyAvgFlow
+                        0x2000'0048     0x4  Data  Gb  VARIABLE.o [1]
+CurrentCyclePurifyAvgFlow
+                        0x2000'004c     0x4  Data  Gb  VARIABLE.o [1]
+CurrentPAEcurrent       0x1fff'fc28     0x4  Data  Gb  PAE800.o [1]
+CurrentPAEvolt          0x1fff'fc24     0x4  Data  Gb  PAE800.o [1]
+CurrentProcessStep      0x1fff'e86e     0x1  Data  Gb  VARIABLE.o [1]
+CurrentProportionalFactor
+                        0x2000'0094     0x4  Data  Gb  VARIABLE.o [1]
+CursorActiveFlag        0x1fff'fee6     0x1  Data  Gb  SerialHmi.o [1]
+CycleCounter            0x2000'005c     0x4  Data  Gb  VARIABLE.o [1]
+DAC_FB_Aval             0x2000'00c4     0x4  Data  Gb  VARIABLE.o [1]
+DAC_FB_Dval             0x2000'00c0     0x4  Data  Gb  VARIABLE.o [1]
+DMAC0_Handler              0x1'98a1          Code  Wk  startup_mb9af31x.o [10]
+DMAC1_Handler              0x1'98a5          Code  Wk  startup_mb9af31x.o [10]
+DMAC2_Handler              0x1'98a9          Code  Wk  startup_mb9af31x.o [10]
+DMAC3_Handler              0x1'98ad          Code  Wk  startup_mb9af31x.o [10]
+DT_Handler                   0x8a91    0xde  Code  Gb  DualTimer.o [1]
+DailySummaryReportMailFlag
+                        0x2000'0113     0x1  Data  Gb  VARIABLE.o [1]
+DataReceivedFlags       0x1fff'e504     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+DataSentFlags           0x1fff'e505     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+DateValidFlag           0x2000'00f8     0x1  Data  Gb  VARIABLE.o [1]
+DebugMon_Handler           0x1'9829          Code  Wk  startup_mb9af31x.o [10]
+DecodeSetupRequest           0xa829    0x74  Code  Lc  UsbDeviceCdcCom.o [3]
+Delay                        0x8a55     0x2  Code  Gb  delay.o [1]
+DelayInMicroSec              0x8a8d     0x2  Code  Gb  delay.o [1]
+DelayInMilliSec              0x8a5f     0x6  Code  Gb  delay.o [1]
+DelayInSec                   0x8a57     0x8  Code  Gb  delay.o [1]
+DeleteAllUsers               0x701d    0x5a  Code  Gb  mmu.o [1]
+Device                  0x1fff'fd3c    0x40  Data  Gb  VARIABLE.o [1]
+DigitalOutput           0x1fff'fff4     0x2  Data  Gb  gpio.o [1]
+DirectMemRead                0x5fcd    0x8c  Code  Gb  AT45DB161.o [1]
+DisplayBothArrowAndNoCursor
+                              0x175    0x10  Code  Gb  SerialHmi.o [1]
+DisplayIllegalValuMsg         0x185    0x14  Code  Gb  SerialHmi.o [1]
+DisplayMenu                   0x1b9  0x2d20  Code  Gb  SerialHmi.o [1]
+DisplayPage             0x1fff'feec     0x4  Data  Gb  SerialHmi.o [1]
+Dtentox                    0x1'3cc9   0x1c8  Code  Lc  strto64.o [12]
+DummyHandler               0x1'98b1          Code  Wk  startup_mb9af31x.o [10]
+DynaProportionalFactor  0x1fff'e868     0x4  Data  Gb  VARIABLE.o [1]
+EmailInitializationCompleteFlag
+                        0x2000'0114     0x1  Data  Gb  VARIABLE.o [1]
+EmailPtr                0x2000'00d8     0x4  Data  Gb  VARIABLE.o [1]
+EnablePAEoutput            0x1'6219    0x3a  Code  Gb  PAE800.o [1]
+EndVolume               0x2000'0034     0x4  Data  Gb  VARIABLE.o [1]
+EndpointContinueRxCallback
+                             0x9f73    0x72  Code  Lc  usbdevice.o [7]
+EndpointContinueTxCallback
+                             0x9eef    0x84  Code  Lc  usbdevice.o [7]
+EndpointIN              0x1fff'fca4     0x4  Data  Lc  UsbHostHidCom.o [3]
+EndpointIN              0x1fff'fe04     0x4  Data  Lc  UsbHostHidKeyboard.o [3]
+EndpointIN              0x1fff'fe60     0x4  Data  Lc  UsbHostHidMouse.o [3]
+EndpointIN              0x1fff'fde0     0x4  Data  Lc  UsbHostMassStorage.o [3]
+EndpointOUT             0x1fff'fca0     0x4  Data  Lc  UsbHostHidCom.o [3]
+EndpointOUT             0x1fff'fe10     0x4  Data  Lc  UsbHostHidKeyboard.o [3]
+EndpointOUT             0x1fff'fddc     0x4  Data  Lc  UsbHostMassStorage.o [3]
+EnumerationStateMachine
+                             0xf9b3   0x10a  Code  Lc  usbhost.o [7]
+FMemInit                     0x5e13    0xb6  Code  Gb  AT45DB161.o [1]
+FindAndReplaceCharInString
+                             0x56db    0x12  Code  Gb  myfun.o [1]
+FirstWasteCycle         0x2000'0104     0x1  Data  Gb  VARIABLE.o [1]
+FlowAverageCalc              0x682b    0x62  Code  Gb  AtlasReplacement.o [1]
+FlowMeter               0x1fff'e024     0xc  Data  Gb  AtlasReplacement.o [1]
+FlowmeterCommTimeOutSec
+                        0x1fff'ffa7     0x1  Data  Gb  AtlasReplacement.o [1]
+FlushShuntPendingFlag   0x2000'0105     0x1  Data  Gb  VARIABLE.o [1]
+Fota                    0x1fff'ffe8     0x8  Data  Gb  VARIABLE.o [1]
+FreeRunSec              0x1fff'ff94     0x4  Data  Gb  DualTimer.o [1]
+GetAtlasReplacementReading
+                             0x658b   0x1d4  Code  Gb  AtlasReplacement.o [1]
+GetAtlasReplacementReading::TemperatureReadSampleData
+                        0x1fff'e030    0x14  Data  Lc  AtlasReplacement.o [1]
+GetAtlasReplacementReading::read_child_processor_sec
+                        0x1fff'e01e     0x1  Data  Lc  AtlasReplacement.o [1]
+GetAtlasReplacementReading::temperature_read_val_counter
+                        0x1fff'e01f     0x1  Data  Lc  AtlasReplacement.o [1]
+GetTemperature             0x1'68c9    0x10  Code  Gb  DS18B20.o [1]
+GetTemperatureFlag      0x2000'00ed     0x1  Data  Gb  DS18B20.o [1]
+Gmt2LocalTimeStamp           0x8bb5    0x82  Code  Gb  DualTimer.o [1]
+GpioInit                   0x1'5d61   0x12c  Code  Gb  gpio.o [1]
+GprsBuff                0x1fff'ec9c   0x258  Data  Gb  GprsUart.o [1]
+GprsByteRecvFlag        0x1fff'ec98     0x1  Data  Gb  GprsUart.o [1]
+GprsCR                  0x2000'00ee     0x1  Data  Gb  gprs.o [1]
+GprsCommandFlag         0x1fff'ec99     0x1  Data  Gb  GprsUart.o [1]
+GprsCommandResponseFlag
+                        0x1fff'fd7d     0x1  Data  Gb  gprs.o [1]
+GprsCrcCodeOut          0x1fff'fff8     0x4  Data  Gb  GprsUart.o [1]
+GprsDataModeFlag        0x1fff'fd7c     0x1  Data  Gb  gprs.o [1]
+GprsReceiveCounter      0x1fff'eef4     0x4  Data  Gb  GprsUart.o [1]
+HF_WasteShuntTimeInSec  0x2000'010c     0x1  Data  Gb  VARIABLE.o [1]
+HF_WasteTimeInSec       0x2000'0058     0x4  Data  Gb  VARIABLE.o [1]
+HardFault_Handler          0x1'9815          Code  Wk  startup_mb9af31x.o [10]
+I2C_Ack                    0x1'0eab    0x14  Code  Gb  i2c.o [1]
+I2C_Clock                  0x1'0edd    0x76  Code  Gb  i2c.o [1]
+I2C_ComErrorCounter     0x2000'00f1     0x1  Data  Gb  i2c.o [1]
+I2C_ErrorFlag           0x2000'00e4     0x1  Data  Gb  i2c.o [1]
+I2C_Get                    0x1'0d6f    0xd4  Code  Gb  i2c.o [1]
+I2C_Nack                   0x1'0ebf    0x12  Code  Gb  i2c.o [1]
+I2C_Send                   0x1'0c99    0xd6  Code  Gb  i2c.o [1]
+I2C_Send::counter       0x2000'00e6     0x1  Data  Lc  i2c.o [1]
+I2C_Start                  0x1'0bc1    0xd8  Code  Gb  i2c.o [1]
+I2C_Stop                   0x1'0e43    0x68  Code  Gb  i2c.o [1]
+INT0_7_Handler             0x1'9845          Code  Wk  startup_mb9af31x.o [10]
+INT8_15_Handler            0x1'9849          Code  Wk  startup_mb9af31x.o [10]
+InitAtlasReplacement         0x68a1    0x40  Code  Gb  AtlasReplacement.o [1]
+InitDualTimer                0x8b71    0x26  Code  Gb  DualTimer.o [1]
+InitUartGprs                 0x8d8d    0x52  Code  Gb  GprsUart.o [1]
+InitUartSerialHmi            0x5459    0x52  Code  Gb  SerialHmi.o [1]
+InitUartSerialPort         0x1'37b9    0x52  Code  Gb  SerialPort.o [1]
+InitializeDefaultSetting
+                             0x7079   0x5bc  Code  Gb  mmu.o [1]
+Input                   0x1fff'ffb8     0x8  Data  Gb  gpio.o [1]
+JustifyCenterForLcdLine
+                             0x577d    0x6a  Code  Gb  myfun.o [1]
+Key                     0x1fff'fee1     0x1  Data  Gb  SerialHmi.o [1]
+KeyEventHandler         0x1fff'fe0c     0x4  Data  Gb  UsbHostHidKeyboard.o [3]
+KeyPressCounter         0x1fff'fee2     0x1  Data  Gb  SerialHmi.o [1]
+KeyPressFlag            0x1fff'fee3     0x1  Data  Gb  SerialHmi.o [1]
+LVD_Handler                0x1'983d          Code  Wk  startup_mb9af31x.o [10]
+LastCycleOptimizedOutputVoltageCode
+                        0x2000'0111     0x1  Data  Gb  VARIABLE.o [1]
+LastCyclePureAverageConductivity
+                        0x2000'0050     0x4  Data  Gb  VARIABLE.o [1]
+LastFiveCyclePureAverageConductivityAverage
+                        0x2000'0054     0x4  Data  Gb  VARIABLE.o [1]
+LastFiveCyclePureAverageConductivitySamples
+                        0x1fff'ff78    0x14  Data  Gb  VARIABLE.o [1]
+LcdLine1                0x1fff'ff50    0x14  Data  Gb  SerialHmi.o [1]
+LcdLine2                0x1fff'fecc    0x14  Data  Gb  SerialHmi.o [1]
+LoadSetting                  0x7751   0x7f0  Code  Gb  mmu.o [1]
+LoadSettingFlag         0x2000'0118     0x1  Data  Gb  VARIABLE.o [1]
+LogPtr                  0x2000'00cc     0x4  Data  Gb  VARIABLE.o [1]
+LogRecord                    0x7f55   0x2c2  Code  Gb  mmu.o [1]
+LowFlowPurifyAlarmSetpoint
+                        0x1fff'e80c     0x4  Data  Gb  VARIABLE.o [1]
+LowFlowWasteAlarmSetpoint
+                        0x1fff'e810     0x4  Data  Gb  VARIABLE.o [1]
+MAX_CIP_PumpRunTimeInSec
+                        0x1fff'e854     0x4  Data  Gb  VARIABLE.o [1]
+MFS0RX_IRQHandler            0x5375    0xe2  Code  Gb  SerialHmi.o [1]
+MFS0RX_IRQHandler::SerialHmiReceiveCounter
+                        0x2000'000b     0x1  Data  Lc  SerialHmi.o [1]
+MFS0RX_IRQHandler::SerialPacketStartCodeFlag
+                        0x2000'000a     0x1  Data  Lc  SerialHmi.o [1]
+MFS0TX_IRQHandler          0x1'9627     0x8  Code  Gb  interrupts.o [7]
+MFS1RX_IRQHandler            0x8cfd    0x8e  Code  Gb  GprsUart.o [1]
+MFS1TX_IRQHandler          0x1'985d          Code  Wk  startup_mb9af31x.o [10]
+MFS2RX_IRQHandler          0x1'372d    0x8c  Code  Gb  SerialPort.o [1]
+MFS2TX_IRQHandler          0x1'9865          Code  Wk  startup_mb9af31x.o [10]
+MFS3RX_IRQHandler            0x6989    0xb2  Code  Gb  AtlasReplacement.o [1]
+MFS3TX_IRQHandler          0x1'986d          Code  Wk  startup_mb9af31x.o [10]
+MFS5RX_IRQHandler          0x1'9871          Code  Wk  startup_mb9af31x.o [10]
+MFS5TX_IRQHandler          0x1'9875          Code  Wk  startup_mb9af31x.o [10]
+MFT_FRT_IRQHandler         0x1'9889          Code  Wk  startup_mb9af31x.o [10]
+MFT_IPC_IRQHandler         0x1'988d          Code  Wk  startup_mb9af31x.o [10]
+MFT_OPC_IRQHandler         0x1'9891          Code  Wk  startup_mb9af31x.o [10]
+MFT_WG_IRQHandler          0x1'9841          Code  Wk  startup_mb9af31x.o [10]
+MaxCycleCountForCIP     0x1fff'e828     0x4  Data  Gb  VARIABLE.o [1]
+MemDebugFlag            0x2000'00f2     0x1  Data  Gb  mmu.o [1]
+MemManage_Handler          0x1'9819          Code  Wk  startup_mb9af31x.o [10]
+MfsIrqHandlerTx            0x1'914d    0xb6  Code  Gb  mfs.o [7]
+MinRecCounter4PeriodicSave
+                        0x2000'0115     0x1  Data  Gb  VARIABLE.o [1]
+MinRecPerConnection     0x1fff'fd7e     0x1  Data  Gb  gprs.o [1]
+MobileCommandFlag       0x1fff'fd7f     0x1  Data  Gb  gprs.o [1]
+MobileDebugFlag         0x2000'00f0     0x1  Data  Gb  GprsUart.o [1]
+MobileResponseWaitSec   0x1fff'fd80     0x1  Data  Gb  gprs.o [1]
+MobileRoutine              0x1'1cd1   0x978  Code  Gb  gprs.o [1]
+MobileStage             0x1fff'fd81     0x1  Data  Gb  gprs.o [1]
+MobileStageWaitSec      0x1fff'fdb0     0x4  Data  Gb  gprs.o [1]
+Mode                    0x2000'00ff     0x1  Data  Gb  VARIABLE.o [1]
+MouseEventHandler       0x1fff'fe64     0x4  Data  Gb  UsbHostHidMouse.o [3]
+MsgBuff                 0x1fff'f11c   0x214  Data  Gb  gprs.o [1]
+MyStrCpy                     0x56bb    0x20  Code  Gb  myfun.o [1]
+NMI_Handler                0x1'9811          Code  Wk  startup_mb9af31x.o [10]
+NabeenTestValue         0x2000'00fd     0x1  Data  Gb  VARIABLE.o [1]
+NeedToLogFlag           0x2000'0117     0x1  Data  Gb  VARIABLE.o [1]
+OneWireData             0x1fff'ffa8     0x8  Data  Gb  1wire.o [1]
+OneWirePresence            0x1'705b    0xc6  Code  Gb  1wire.o [1]
+OneWireReadByte            0x1'7125    0x9a  Code  Gb  1wire.o [1]
+OneWireReset               0x1'700d    0x4e  Code  Gb  1wire.o [1]
+OneWireWriteByte           0x1'7121     0x4  Code  Gb  1wire.o [1]
+OptimizedPAE_CurrentForPrepureStep
+                        0x2000'0098     0x4  Data  Gb  VARIABLE.o [1]
+OptimizedPAE_CurrentForPureStep
+                        0x2000'009c     0x4  Data  Gb  VARIABLE.o [1]
+OptimizedPAE_CurrentForWasteStep
+                        0x2000'00a0     0x4  Data  Gb  VARIABLE.o [1]
+PAE_I2C_Ack                0x1'6f47    0x14  Code  Gb  PAE_I2C.o [1]
+PAE_I2C_Clock              0x1'6f79    0x7c  Code  Gb  PAE_I2C.o [1]
+PAE_I2C_ErrorCounter    0x2000'00f4     0x1  Data  Gb  PAE800.o [1]
+PAE_I2C_ErrorFlag       0x2000'00ea     0x1  Data  Gb  PAE_I2C.o [1]
+PAE_I2C_Get                0x1'6df5    0xe0  Code  Gb  PAE_I2C.o [1]
+PAE_I2C_Nack               0x1'6f5b    0x12  Code  Gb  PAE_I2C.o [1]
+PAE_I2C_Send               0x1'6d09    0xec  Code  Gb  PAE_I2C.o [1]
+PAE_I2C_Send::counter   0x2000'00ec     0x1  Data  Lc  PAE_I2C.o [1]
+PAE_I2C_Start              0x1'6c35    0xd4  Code  Gb  PAE_I2C.o [1]
+PAE_I2C_Stop               0x1'6ed5    0x72  Code  Gb  PAE_I2C.o [1]
+PAE_OnOffRelayControl      0x1'625d    0xb0  Code  Gb  PAE800.o [1]
+PAE_OnOffRelayControl::PaeFailCounter
+                        0x2000'00e9     0x1  Data  Lc  PAE800.o [1]
+PAE_OperationAsPerModeAndProcessStep
+                           0x1'630d   0x18c  Code  Gb  PAE800.o [1]
+PAE_PrepurifyStepVoltageSetpoint
+                        0x2000'0088     0x4  Data  Gb  VARIABLE.o [1]
+PAE_PureStepVoltageSetpoint
+                        0x2000'008c     0x4  Data  Gb  VARIABLE.o [1]
+PAE_WasteStepVoltageSetpoint
+                        0x2000'0090     0x4  Data  Gb  VARIABLE.o [1]
+PAE_loop                0x2000'00eb     0x1  Data  Gb  PAE_I2C.o [1]
+PAEcommandFlag          0x2000'00f3     0x1  Data  Gb  PAE800.o [1]
+PPG_Handler                0x1'9879          Code  Wk  startup_mb9af31x.o [10]
+PaeAlarm                0x2000'00e8     0x1  Data  Gb  PAE800.o [1]
+PaeErrorSecCounter      0x2000'00e7     0x1  Data  Gb  PAE800.o [1]
+PageToBuffer                 0x6231    0x38  Code  Gb  AT45DB161.o [1]
+PasteBuff               0x1fff'f330   0x214  Data  Gb  VARIABLE.o [1]
+PendSV_Handler             0x1'982d          Code  Wk  startup_mb9af31x.o [10]
+PercentageRecovery      0x1fff'ffe0     0x8  Data  Gb  VARIABLE.o [1]
+PeriodicSave                 0x84cd   0x25c  Code  Gb  mmu.o [1]
+PostWasteTask              0x1'59a7   0x22a  Code  Gb  main.o [10]
+PowerOnResetActionFlag  0x2000'0112     0x1  Data  Gb  VARIABLE.o [1]
+Ppg_Init                     0xc261    0x4a  Code  Gb  ppg.o [8]
+Ppg_SetCycle                 0xc2d9    0x2a  Code  Gb  ppg.o [8]
+Ppg_SetDuty                  0xc2ad    0x2a  Code  Gb  ppg.o [8]
+PrepurifyTimeInSec      0x1fff'e81c     0x4  Data  Gb  VARIABLE.o [1]
+PressureOffset          0x2000'0068     0x4  Data  Gb  VARIABLE.o [1]
+PrevDigitalInput        0x1fff'fcf5     0x1  Data  Gb  gpio.o [1]
+PrevDigitalOutput       0x1fff'fff6     0x2  Data  Gb  gpio.o [1]
+ProcessStepRunSec       0x2000'0020     0x4  Data  Gb  VARIABLE.o [1]
+PureAnalogVoltageOut         0x675f    0xcc  Code  Gb  AtlasReplacement.o [1]
+PureAnalogVoltageOut::OptimizedOutputVoltageHiCode
+                        0x1fff'e020     0x1  Data  Lc  AtlasReplacement.o [1]
+PureAnalogVoltageOut::OptimizedOutputVoltageLoCode
+                        0x1fff'e021     0x1  Data  Lc  AtlasReplacement.o [1]
+PureAnalogVoltageOut::PureAnalogVoltageTimeStamp
+                        0x1fff'e022     0x1  Data  Lc  AtlasReplacement.o [1]
+PureStepRunSec          0x2000'0024     0x4  Data  Gb  VARIABLE.o [1]
+PureVolumeOfBatchJustCompleted
+                        0x2000'0038     0x4  Data  Gb  VARIABLE.o [1]
+PurifyTimeInSec         0x1fff'e820     0x4  Data  Gb  VARIABLE.o [1]
+PutCharAtlasReplacement
+                             0x6939    0x2a  Code  Gb  AtlasReplacement.o [1]
+PutCharGprs                  0x8ddf    0x18  Code  Gb  GprsUart.o [1]
+PutCharSerialHmi             0x54ab    0x1e  Code  Gb  SerialHmi.o [1]
+PutCharUsb                   0x5909    0x12  Code  Gb  MyUsb.o [1]
+PutStringAtlasReplacement
+                             0x6963    0x26  Code  Gb  AtlasReplacement.o [1]
+PutStringGprs                0x8df7    0x36  Code  Gb  GprsUart.o [1]
+PutStringSerialHmi           0x54d1    0x2e  Code  Gb  SerialHmi.o [1]
+PutStringSerialPort        0x1'380b    0x36  Code  Gb  SerialPort.o [1]
+PutStringUsb                 0x591b    0x1e  Code  Gb  MyUsb.o [1]
+PwmCycle                0x1fff'e86c     0x1  Data  Gb  ppg.o [8]
+PwmDuty                 0x2000'00f5     0x1  Data  Gb  ppg.o [8]
+RandomMemWrite               0x5f33    0x56  Code  Gb  AT45DB161.o [1]
+RawWaterTemperature     0x1fff'e04c     0x4  Data  Gb  AtlasReplacement.o [1]
+ReadAtlasConductivity      0x1'6ad9   0x134  Code  Gb  Atlas_C.o [1]
+ReadAtlasConductivity::read_conductivity_sec
+                        0x1fff'e001     0x1  Data  Lc  Atlas_C.o [1]
+ReadAtlasModuleRegister
+                             0xb8ad    0xf2  Code  Gb  Atlas_TC.o [1]
+ReadIdentification           0x6287    0x4e  Code  Gb  AT45DB161.o [1]
+ReadMemReg                   0x5f89    0x44  Code  Gb  AT45DB161.o [1]
+ReadPowerSolveModuleOutputVoltage
+                           0x1'65c9   0x166  Code  Gb  PAE800.o [1]
+ReadPowerSolveModuleOutputVoltage::PAE_ReadSampleData
+                        0x1fff'fb4c    0xc8  Data  Lc  PAE800.o [1]
+ReadPowerSolveModuleOutputVoltage::pae_status_reg
+                        0x1fff'fc18     0xc  Data  Lc  PAE800.o [1]
+ReadPowerSolveModuleOutputVoltage::pae_status_reg_val_counter
+                        0x1fff'fc14     0x1  Data  Lc  PAE800.o [1]
+ReadPowerSolveModuleOutputVoltage::pae_volt_read_counter
+                        0x1fff'fc2c     0x4  Data  Lc  PAE800.o [1]
+ReadPowerSolveModuleRegister
+                           0x1'6499   0x12e  Code  Gb  PAE800.o [1]
+ReadSerialInfoInCopyBuff
+                             0x62d5    0x3e  Code  Gb  AT45DB161.o [1]
+ReadTemperature            0x1'68d9   0x122  Code  Gb  DS18B20.o [1]
+ReadTemperature::OneWireSample
+                        0x1fff'ff38    0x14  Data  Lc  DS18B20.o [1]
+ReadTemperature::one_wire_sample_counter
+                        0x1fff'ff34     0x1  Data  Lc  DS18B20.o [1]
+ReadUniqueIdentification
+                             0x6363    0x8e  Code  Gb  AT45DB161.o [1]
+ReadWriteMemBuffer           0x6059   0x19e  Code  Gb  AT45DB161.o [1]
+ReadWriteMemoryCommand       0x872d   0x238  Code  Gb  mmu.o [1]
+RecordTimeStamp         0x1fff'fe74    0x2c  Data  Gb  VARIABLE.o [1]
+Region$$Table$$Base        0x1'9784           --   Gb  - Linker created -
+Region$$Table$$Limit       0x1'97a4           --   Gb  - Linker created -
+RegisterAlarm                0x8275    0x9e  Code  Gb  mmu.o [1]
+RemoveCharFromEndOfString
+                             0x56ed    0x24  Code  Gb  myfun.o [1]
+RemoveCharFromString         0x5711    0x1a  Code  Gb  myfun.o [1]
+ResetAverageFlow             0x688d    0x10  Code  Gb  AtlasReplacement.o [1]
+Reset_Handler              0x1'97f5          Code  Wk  startup_mb9af31x.o [10]
+ReturnToMobileStage     0x1fff'fd82     0x1  Data  Gb  gprs.o [1]
+ReturnedConfigurationDescriptor
+                           0x1'3b85    0x9c  Code  Gb  UsbClassSupervisor.o [3]
+ReturnedDeviceDescriptor
+                           0x1'3b25    0x60  Code  Gb  UsbClassSupervisor.o [3]
+RxTxCallback                 0xa687    0xc0  Code  Lc  UsbDeviceCdcCom.o [3]
+SVC_Handler                0x1'9825          Code  Wk  startup_mb9af31x.o [10]
+SWDT_Handler               0x1'9839          Code  Wk  startup_mb9af31x.o [10]
+ScanInput                  0x1'5e8d   0x1d4  Code  Gb  gpio.o [1]
+ScanInput::AnaPressureAvgScanCounter
+                        0x1fff'fcf8     0x1  Data  Lc  gpio.o [1]
+ScanInput::AnaPressureDCumVal
+                        0x1fff'fd38     0x4  Data  Lc  gpio.o [1]
+ScanInput::AnaPressureDvalArrayForMedian
+                        0x1fff'fd08    0x2c  Data  Lc  gpio.o [1]
+ScanInput::AnaPressureMedianSampleCount
+                        0x1fff'fcf9     0x1  Data  Lc  gpio.o [1]
+ScanInput::DAC_FB_DCumVal
+                        0x1fff'fd34     0x4  Data  Lc  gpio.o [1]
+ScanInput::DAC_FB_ScanCounter
+                        0x1fff'fcf7     0x1  Data  Lc  gpio.o [1]
+ScanInput::DI_ScanCounter
+                        0x1fff'fcf6     0x1  Data  Lc  gpio.o [1]
+ScanInput::ScanDigitalInput
+                        0x1fff'fcfc     0xc  Data  Lc  gpio.o [1]
+SchedulerFinishing         0x1'02f1    0xde  Code  Lc  usbhost.o [7]
+SearchString                 0x5683    0x38  Code  Gb  myfun.o [1]
+SecAfterTimeSync        0x1fff'ff98     0x4  Data  Gb  DualTimer.o [1]
+SecondChangeFlag        0x1fff'ff8c     0x1  Data  Gb  DualTimer.o [1]
+SendAtlasReplacementCommand
+                             0x68e1    0x44  Code  Gb  AtlasReplacement.o [1]
+SendCommandReplyToSender
+                             0xf3ad    0xa0  Code  Gb  command.o [1]
+SendFotaCommandToServer
+                           0x1'34e5    0x7e  Code  Gb  gprs.o [1]
+SendGPRScommand            0x1'2eed    0x72  Code  Gb  gprs.o [1]
+SendMailFlag            0x2000'00ef     0x1  Data  Gb  gprs.o [1]
+SendSerialHmiPacket          0x5229   0x14c  Code  Gb  SerialHmi.o [1]
+SendSms                    0x1'2f65    0xc0  Code  Gb  gprs.o [1]
+SendSms::reattemptcounter
+                        0x1fff'fd85     0x1  Data  Lc  gprs.o [1]
+SerialHmiBuff           0x1fff'fc30    0x64  Data  Gb  SerialHmi.o [1]
+SerialHmiCrcCodeOut     0x1fff'fee0     0x1  Data  Gb  SerialHmi.o [1]
+SerialHmiDebugTarget    0x1fff'fee4     0x1  Data  Gb  SerialHmi.o [1]
+SerialHmiEchoFlag       0x2000'0009     0x1  Data  Gb  SerialHmi.o [1]
+SerialHmiPassword       0x1fff'fef0    0x24  Data  Gb  SerialHmi.o [1]
+SerialHmiReceiveByte    0x2000'0008     0x1  Data  Gb  SerialHmi.o [1]
+SerialHmiReceivePacketCompleteFlag
+                        0x1fff'fee7     0x1  Data  Gb  SerialHmi.o [1]
+SerialHmiTemp           0x1fff'fee8     0x1  Data  Gb  SerialHmi.o [1]
+SerialNoValidFlag       0x2000'00fe     0x1  Data  Gb  VARIABLE.o [1]
+SerialPortBuff          0x1fff'ff18    0x18  Data  Gb  SerialPort.o [1]
+SerialPortByteRecvFlag  0x1fff'ff14     0x1  Data  Gb  SerialPort.o [1]
+SerialPortCommandFlag   0x1fff'ff15     0x1  Data  Gb  SerialPort.o [1]
+SerialPortCrcCodeOut    0x2000'000c     0x4  Data  Gb  SerialPort.o [1]
+SerialPortReceiveCounter
+                        0x1fff'ff30     0x4  Data  Gb  SerialPort.o [1]
+Server                  0x1fff'fd88    0x28  Data  Gb  gprs.o [1]
+ServerNoResponseCounter
+                        0x2000'010f     0x1  Data  Gb  VARIABLE.o [1]
+ServerType              0x2000'0116     0x1  Data  Gb  VARIABLE.o [1]
+SetDeviceTimeZone            0xf451    0x78  Code  Gb  command.o [1]
+SetLineCoding                0xa89d    0x4c  Code  Lc  UsbDeviceCdcCom.o [3]
+SetupRxCallback              0xa1b3   0x1b6  Code  Lc  usbdevice.o [7]
+ShuntPostPureStepTimeInSec
+                        0x2000'010a     0x1  Data  Gb  VARIABLE.o [1]
+ShuntPostWasteStepTimeInSec
+                        0x2000'010b     0x1  Data  Gb  VARIABLE.o [1]
+ShuntSec                0x1fff'e870     0x1  Data  Gb  VARIABLE.o [1]
+SoftwareResetProcessor       0x574d    0x30  Code  Gb  myfun.o [1]
+StallCompletionEp0           0xfbc7    0x18  Code  Lc  usbhost.o [7]
+StartVolume             0x2000'0030     0x4  Data  Gb  VARIABLE.o [1]
+StopFlag                0x2000'0102     0x1  Data  Gb  VARIABLE.o [1]
+StopTimer               0x2000'0103     0x1  Data  Gb  VARIABLE.o [1]
+SwitchFromLogoutToAutoMode
+                             0x644d    0x8a  Code  Gb  ProjectFunc.o [1]
+SwitchFromLogoutToManualCIP
+                             0x64d7    0x1e  Code  Gb  ProjectFunc.o [1]
+SwitchPAEvoltPure       0x2000'0004     0x4  Data  Gb  PAE800.o [1]
+SwitchPAEvoltWaste      0x2000'0000     0x4  Data  Gb  PAE800.o [1]
+SwitchingFromAutoToLogout
+                             0x64f5    0x30  Code  Gb  ProjectFunc.o [1]
+SysTick_Handler            0x1'9831          Code  Wk  startup_mb9af31x.o [10]
+SystemInit                 0x1'9091    0x96  Code  Gb  system_mb9af31x.o [5]
+TIM_IRQHandler             0x1'987d          Code  Wk  startup_mb9af31x.o [10]
+TankFullFlag            0x2000'010d     0x1  Data  Gb  VARIABLE.o [1]
+TargetOutletConductivity
+                        0x1fff'e850     0x4  Data  Gb  VARIABLE.o [1]
+TargetPureFlowLperM     0x1fff'e84c     0x4  Data  Gb  VARIABLE.o [1]
+TempEmailPtr            0x2000'00dc     0x4  Data  Gb  VARIABLE.o [1]
+Temperature             0x1fff'ff4c     0x4  Data  Gb  DS18B20.o [1]
+TemperatureAtWhichConductivityWasCalibrated
+                        0x2000'00bc     0x4  Data  Gb  VARIABLE.o [1]
+TemperatureOffsetRegister
+                        0x1fff'e050     0x4  Data  Gb  AtlasReplacement.o [1]
+TimeStamp2Sec                0x8b97    0x1c  Code  Gb  DualTimer.o [1]
+TimeStampPtr            0x1fff'ff90     0x4  Data  Gb  DualTimer.o [1]
+TimeValidFlag           0x2000'00f9     0x1  Data  Gb  VARIABLE.o [1]
+TotalPureVolume         0x2000'0040     0x4  Data  Gb  VARIABLE.o [1]
+TotalPureVolumeB4CycleStart
+                        0x2000'0044     0x4  Data  Gb  VARIABLE.o [1]
+USB0F_Handler              0x1'9631     0x2  Code  Gb  interrupts.o [7]
+USB0_Handler               0x1'963d     0x2  Code  Gb  interrupts.o [7]
+UpdateOutput               0x1'6061   0x126  Code  Gb  gpio.o [1]
+Upload1Pkt2Server          0x1'3041   0x49e  Code  Gb  gprs.o [1]
+UploadPtr               0x2000'00d0     0x4  Data  Gb  VARIABLE.o [1]
+UploadPtr2Increment     0x2000'00d4     0x4  Data  Gb  VARIABLE.o [1]
+UsageFault_Handler         0x1'9821          Code  Wk  startup_mb9af31x.o [10]
+UsbClassHandlers           0x1'9488    0x50  Data  Gb  UsbClassSupervisor.o [3]
+UsbClassSupervisorGetInternDataPtr
+                           0x1'3965    0x34  Code  Lc  UsbClassSupervisor.o [3]
+UsbClassSupervisor_Deinit
+                           0x1'39c5    0x6c  Code  Gb  UsbClassSupervisor.o [3]
+UsbClassSupervisor_Init
+                           0x1'3999    0x2c  Code  Gb  UsbClassSupervisor.o [3]
+UsbClassSupervisor_SysTickHandler
+                           0x1'3a31    0xf2  Code  Gb  UsbClassSupervisor.o [3]
+UsbCommandFlag          0x1fff'f544     0x1  Data  Gb  MyUsb.o [1]
+UsbConfig_Device0Vbus        0x8f75    0x5e  Code  Lc  UsbConfig.o [2]
+UsbConfig_UsbDeviceClassesInitCallback0
+                             0x8f09     0x4  Code  Lc  UsbConfig.o [2]
+UsbConfig_UsbInit            0x8f0d    0x66  Code  Gb  UsbConfig.o [2]
+UsbCrcCodeOut           0x1fff'fffc     0x4  Data  Gb  MyUsb.o [1]
+UsbDeviceCdcCom_Init         0xa74d    0xdc  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_IsConnected
+                             0xa8e9    0x14  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_ReceiveBuffer
+                             0xa9bb    0x28  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_ReceivedLength
+                             0xa9a3    0x18  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_SendByte
+                             0xa8fd    0x3e  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_SendString
+                             0xa93b    0x58  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_SetEchomode
+                             0xa99b     0x8  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceCdcCom_SetSeparator
+                             0xa993     0x8  Code  Gb  UsbDeviceCdcCom.o [3]
+UsbDeviceGetInternDataPtr
+                             0x9eb9    0x36  Code  Lc  usbdevice.o [7]
+UsbDevice_GetStatus          0xa53b    0x34  Code  Gb  usbdevice.o [7]
+UsbDevice_Init               0xa5cf    0x6c  Code  Gb  usbdevice.o [7]
+UsbDevice_InitCallback       0xa56f    0x60  Code  Gb  usbdevice.o [7]
+UsbDevice_ReceiveData        0x9fe5    0x86  Code  Gb  usbdevice.o [7]
+UsbDevice_ReceiveDataControl
+                             0xa3d9    0x32  Code  Gb  usbdevice.o [7]
+UsbDevice_RegisterVendorClass
+                             0xa40b   0x130  Code  Gb  usbdevice.o [7]
+UsbDevice_SendData           0xa06b    0x8c  Code  Gb  usbdevice.o [7]
+UsbDevice_SendDataControl
+                             0xa369    0x70  Code  Gb  usbdevice.o [7]
+UsbDevice_SetupEndpoint
+                             0xa65d    0x14  Code  Gb  usbdevice.o [7]
+UsbEthernetClock_Init      0x1'05c1    0x4a  Code  Gb  usbethernetclock.o [7]
+UsbGetInternDataPtr          0x9031    0x38  Code  Lc  usb.o [7]
+UsbHostGetInternDataPtr
+                             0xf861    0x38  Code  Lc  usbhost.o [7]
+UsbHostHidComDataReceivedHandler
+                        0x1fff'fcb0     0x4  Data  Gb  UsbHostHidCom.o [3]
+UsbHostHidComDataSentHandler
+                        0x1fff'fcac     0x4  Data  Gb  UsbHostHidCom.o [3]
+UsbHostHidCom_DataReceivedHandler
+                           0x1'8d65    0x18  Code  Gb  UsbHostHidCom.o [3]
+UsbHostHidCom_DataSentHandler
+                           0x1'8d7d    0x18  Code  Gb  UsbHostHidCom.o [3]
+UsbHostHidCom_DeinitHandler
+                           0x1'8e7b    0x14  Code  Gb  UsbHostHidCom.o [3]
+UsbHostHidCom_InitHandler
+                           0x1'8d95    0xe0  Code  Gb  UsbHostHidCom.o [3]
+UsbHostHidKeyboard_DataReceivedCallback
+                           0x1'8ce5    0x76  Code  Lc  UsbHostHidKeyboard.o [3]
+UsbHostHidKeyboard_DeinitHandler
+                           0x1'8cd9     0xa  Code  Gb  UsbHostHidKeyboard.o [3]
+UsbHostHidKeyboard_InitHandler
+                           0x1'8bf5    0xde  Code  Gb  UsbHostHidKeyboard.o [3]
+UsbHostHidMouse_DataReceivedCallback
+                           0x1'8b25    0xc8  Code  Lc  UsbHostHidMouse.o [3]
+UsbHostHidMouse_DeinitHandler
+                           0x1'8b1b     0xa  Code  Gb  UsbHostHidMouse.o [3]
+UsbHostHidMouse_InitHandler
+                           0x1'8a61    0xba  Code  Gb  UsbHostHidMouse.o [3]
+UsbHostMassStorage_DeinitHandler
+                           0x1'907d     0xc  Code  Gb  UsbHostMassStorage.o [3]
+UsbHostMassStorage_InitHandler
+                           0x1'8fa5    0xd8  Code  Gb  UsbHostMassStorage.o [3]
+UsbHost_AddHostEndpoint
+                             0xf899    0xb6  Code  Gb  usbhost.o [7]
+UsbHost_ClearAllEndpoints
+                             0xfe51    0x4e  Code  Gb  usbhost.o [7]
+UsbHost_CompletionCallback
+                             0xfecb   0x32c  Code  Gb  usbhost.o [7]
+UsbHost_DisconnectionCallback
+                             0xfe9f    0x2c  Code  Gb  usbhost.o [7]
+UsbHost_EndpointFromNumber
+                             0xf94f    0x64  Code  Gb  usbhost.o [7]
+UsbHost_GetDeviceStatus
+                           0x1'04b7    0x36  Code  Gb  usbhost.o [7]
+UsbHost_GetUsbEndpointDescriptor
+                           0x1'053d    0x64  Code  Gb  usbhost.o [7]
+UsbHost_Init               0x1'04a9     0xe  Code  Gb  usbhost.o [7]
+UsbHost_InitCallback       0x1'03cf    0x60  Code  Gb  usbhost.o [7]
+UsbHost_SetConfigurationDescriptor
+                           0x1'050d    0x30  Code  Gb  usbhost.o [7]
+UsbHost_SetupComplete        0xfbe1    0x1e  Code  Lc  usbhost.o [7]
+UsbHost_SetupRequest         0xfabd   0x10a  Code  Gb  usbhost.o [7]
+UsbHost_SofCallback        0x1'01f7    0xfa  Code  Gb  usbhost.o [7]
+UsbHost_TransferDataToFifo
+                           0x1'0435    0x3e  Code  Gb  usbhost.o [7]
+UsbHost_TransferFifoToBuffer
+                           0x1'0473    0x36  Code  Gb  usbhost.o [7]
+UsbInitDone             0x2000'00f6     0x1  Data  Lc  usb.o [7]
+UsbIrqHandler                0x9c9b   0x21c  Code  Gb  usb.o [7]
+UsbIrqHandlerF               0x9c29    0x72  Code  Gb  usb.o [7]
+UsbReceiveBuffer        0x1fff'f54c   0x200  Data  Gb  MyUsb.o [1]
+UsbSupervisor_UsbClassMatch
+                           0x1'3c35    0x78  Code  Gb  UsbClassSupervisor.o [3]
+Usb_AddTimeOut               0x9b11    0x7c  Code  Gb  usb.o [7]
+Usb_Configure                0x9069   0x1ce  Code  Gb  usb.o [7]
+Usb_DeinitDeviceMode         0x960b    0x78  Code  Lc  usb.o [7]
+Usb_DeinitHostMode           0x97e9    0x44  Code  Lc  usb.o [7]
+Usb_GetConfiguration         0x9a87    0x16  Code  Gb  usb.o [7]
+Usb_GetEndpointPtr           0x9941    0x70  Code  Gb  usb.o [7]
+Usb_HalReceive               0x9a27    0x60  Code  Gb  usb.o [7]
+Usb_HalSend                  0x99b1    0x76  Code  Gb  usb.o [7]
+Usb_Init                     0x9237   0x13c  Code  Gb  usb.o [7]
+Usb_InitDeviceMode           0x94d9   0x132  Code  Lc  usb.o [7]
+Usb_InitHostMode             0x9683   0x166  Code  Lc  usb.o [7]
+Usb_InitInstance             0x982d   0x114  Code  Gb  usb.o [7]
+Usb_RemoveTimeOut            0x9b8d    0x6e  Code  Gb  usb.o [7]
+Usb_SetupHalEndpoint         0x9373    0xaa  Code  Gb  usb.o [7]
+Usb_SwitchUsb                0x941d    0xbc  Code  Gb  usb.o [7]
+Usb_SwitchUsb::u32InternalSwitchDelay
+                        0x2000'0010     0x4  Data  Lc  usb.o [7]
+Usb_TimeoutHandler           0x9a9d    0x74  Code  Lc  usb.o [7]
+UserInputToUnsignedInt       0x550d    0x28  Code  Gb  SerialHmi.o [1]
+ValidateDate                 0x5649    0x3a  Code  Gb  myfun.o [1]
+VariableUnsignedInt2UserInput
+                             0x5539    0x64  Code  Gb  SerialHmi.o [1]
+VolumeUnit              0x1fff'e86f     0x1  Data  Gb  VARIABLE.o [1]
+WV_CheckTimeInSec       0x1fff'e85c     0x4  Data  Gb  VARIABLE.o [1]
+WaitForConnectionFlag   0x1fff'f545     0x1  Data  Gb  MyUsb.o [1]
+WaitHT_TimeInSec        0x1fff'e860     0x4  Data  Gb  VARIABLE.o [1]
+WaitTimeB4BypassAlarmInSec
+                        0x1fff'e848     0x4  Data  Gb  VARIABLE.o [1]
+WaitTimeB4BypassAlarmInSecCounter
+                        0x2000'0060     0x4  Data  Gb  VARIABLE.o [1]
+WasteTimeInSec          0x1fff'e824     0x4  Data  Gb  VARIABLE.o [1]
+WasteVolumeOfBatchJustCompleted
+                        0x2000'003c     0x4  Data  Gb  VARIABLE.o [1]
+WifiErrorCounter        0x1fff'fd84     0x1  Data  Gb  gprs.o [1]
+WifiServerDisconnectCounter
+                        0x1fff'fd83     0x1  Data  Gb  gprs.o [1]
+WriteAtlasModuleRegister
+                             0xb9a1    0x72  Code  Gb  Atlas_TC.o [1]
+WritePowerSolveModuleRegister
+                           0x1'6731    0xd6  Code  Gb  PAE800.o [1]
+WriteValidSerialInfoFromCopyBuffToSecurityRegister
+                             0x6313    0x3a  Code  Gb  AT45DB161.o [1]
+ZeroEcSecondCounter     0x2000'0109     0x1  Data  Gb  VARIABLE.o [1]
+_Get                       0x1'0f79    0x12  Code  Lc  xscanffull_nomb.o [11]
+_GetN                      0x1'0f8b    0x22  Code  Lc  xscanffull_nomb.o [11]
+_GetstrFullNoMb            0x1'1ab5   0x1a0  Code  Lc  xscanffull_nomb.o [11]
+_LC                          0xa9f5     0x6  Code  Lc  xprintffull_nomb.o [11]
+_LitobFullNoMb               0xb6c9   0x114  Code  Lc  xprintffull_nomb.o [11]
+_PrintfFullNoMb              0xa9fb   0xc9e  Code  Gb  xprintffull_nomb.o [11]
+_PutcharsFullNoMb            0xb835    0x2e  Code  Lc  xprintffull_nomb.o [11]
+_SProut                      0x642b     0xa  Code  Gb  xsprout.o [11]
+_SScin                       0x5c7b    0x1e  Code  Gb  xsscin.o [11]
+_ScanfFullNoMb             0x1'0fc9   0xaa0  Code  Gb  xscanffull_nomb.o [11]
+_Ttotm_ts               0x1fff'fea0    0x2c  Data  Lc  xttotm64.o [11]
+_UngetN                    0x1'0fad    0x1a  Code  Lc  xscanffull_nomb.o [11]
+__aeabi_cdcmple            0x1'0745          Code  Gb  DblCmpLe.o [12]
+__aeabi_cdrcmple           0x1'0779          Code  Gb  DblCmpGe.o [12]
+__aeabi_cfcmple              0xc239          Code  Gb  FltCmpLe.o [12]
+__aeabi_cfrcmple             0xc359          Code  Gb  FltCmpGe.o [12]
+__aeabi_d2f                  0xbcf1          Code  Gb  DblToFlt.o [12]
+__aeabi_d2iz                 0xc201          Code  Gb  DblToS32.o [12]
+__aeabi_d2uiz              0x1'090d          Code  Gb  DblToU32.o [12]
+__aeabi_dadd                 0xbd59          Code  Gb  DblAddSub.o [12]
+__aeabi_ddiv                 0xbfb9          Code  Gb  DblDiv.o [12]
+__aeabi_dmul                 0x5ad1          Code  Gb  DblMul.o [12]
+__aeabi_dsub                 0xbed5          Code  Gb  DblAddSub.o [12]
+__aeabi_f2d                  0x5a89          Code  Gb  FltToDbl.o [12]
+__aeabi_f2iz               0x1'6a1d          Code  Gb  FltToS32.o [12]
+__aeabi_f2uiz                0x6435          Code  Gb  FltToU32.o [12]
+__aeabi_fadd                 0xbaa9          Code  Gb  FltAddSub.o [12]
+__aeabi_fdiv                 0x5cbd          Code  Gb  FltDiv.o [12]
+__aeabi_fmul                 0xbc19          Code  Gb  FltMul.o [12]
+__aeabi_fsub                 0xbb89          Code  Gb  FltAddSub.o [12]
+__aeabi_i2d                0x1'08e9          Code  Gb  S32ToDbl.o [12]
+__aeabi_i2f                  0x5c99          Code  Gb  S32ToFlt.o [12]
+__aeabi_ldiv0              0x1'3cc5          Code  Gb  I64DivZer.o [13]
+__aeabi_ldivmod            0x1'094d          Code  Gb  I64DivMod.o [13]
+__aeabi_memclr               0xc351          Code  Gb  ABImemclr.o [13]
+__aeabi_memclr4              0xf859          Code  Gb  ABImemclr4.o [13]
+__aeabi_memcpy               0x5969          Code  Gb  ABImemcpy.o [13]
+__aeabi_memcpy4              0x5989          Code  Gb  ABImemcpy.o [13]
+__aeabi_memcpy8              0x5989          Code  Gb  ABImemcpy.o [13]
+__aeabi_memset               0x8e89          Code  Gb  ABImemset.o [13]
+__aeabi_ui2d               0x1'0931          Code  Gb  U32ToDbl.o [12]
+__aeabi_ui2f                 0xba8d          Code  Gb  U32ToFlt.o [12]
+__aeabi_uldivmod           0x1'0991          Code  Gb  I64DivMod.o [13]
+__cmain                    0x1'974d          Code  Gb  cmain.o [13]
+__exit                     0x1'421d          Code  Gb  XXexit.o [13]
+__iar_Daysto64             0x1'3899    0x66  Code  Gb  xDaysTo64.o [11]
+__iar_Fail_s               0x1'063d    0x1c  Code  Gb  xfail_s.o [11]
+__iar_Memchr               0x1'067d          Code  Gb  memchr.o [13]
+__iar_Memset                 0x8e89          Code  Gb  ABImemset.o [13]
+__iar_Memset4_word         0x1'3931          Code  Gb  ABImemset48.o [13]
+__iar_Memset8_word         0x1'3931          Code  Gb  ABImemset48.o [13]
+__iar_Memset_word            0x8e91          Code  Gb  ABImemset.o [13]
+__iar_MonTab64             0x1'3865    0x34  Code  Gb  xDaysTo64.o [11]
+__iar_Sto64                0x1'3e91   0x112  Code  Gb  strto64.o [12]
+__iar_Stoflt               0x1'4349   0x1a8  Code  Gb  iar_Stoflt.o [11]
+__iar_Stollx               0x1'416d    0xa6  Code  Gb  iar_Stollx.o [11]
+__iar_Stopfx               0x1'4229   0x120  Code  Gb  iar_Stopfx.o [11]
+__iar_Stoullx              0x1'3fc5   0x19a  Code  Gb  iar_Stoullx.o [11]
+__iar_Stoxflt              0x1'44f1   0x1c8  Code  Gb  iar_Stoxflt.o [11]
+__iar_Stoxflt::digits      0x1'46bc    0x18  Data  Lc  iar_Stoxflt.o [11]
+__iar_Stoxflt::vals        0x1'46d4    0x18  Data  Lc  iar_Stoxflt.o [11]
+__iar_Strchr               0x1'0625          Code  Gb  strchr.o [13]
+__iar_Ttotm64                0xf6fd   0x15c  Code  Gb  xttotm64.o [11]
+__iar_data_init3           0x1'96dd    0x28  Code  Gb  data_init.o [13]
+__iar_frexp                0x1'06e1          Code  Gb  frexp.o [12]
+__iar_frexp64              0x1'06d5          Code  Gb  frexp.o [12]
+__iar_frexpl               0x1'06e1          Code  Gb  frexp.o [12]
+__iar_ldexp64              0x1'07ad          Code  Gb  ldexp.o [12]
+__iar_packbits_init_single3
+                             0x5a0f    0x3a  Code  Gb  packbits_init_single.o [13]
+__iar_program_start        0x1'97a5          Code  Gb  cstartup_M.o [13]
+__iar_scalbln64            0x1'07ad          Code  Gb  ldexp.o [12]
+__iar_scalbn64             0x1'07ad          Code  Gb  ldexp.o [12]
+__iar_zero_init3           0x1'95b9    0x38  Code  Gb  zero_init3.o [13]
+__localtime64                0x8cdd    0x20  Code  Gb  localtim64.o [11]
+__mktime64                   0xf61d    0xe0  Code  Gb  mktime64.o [11]
+__vector_table                  0x0          Data  Gb  startup_mb9af31x.o [10]
+_call_main                 0x1'9759          Code  Gb  cmain.o [13]
+_exit                      0x1'9775          Code  Gb  cexit.o [13]
+_exit_2                    0x1'9779          Code  Gb  cexit_2.o [13]
+_ttemp                  0x1fff'ffb0     0x8  Data  Gb  DualTimer.o [1]
+abort                      0x1'3cbd     0x6  Code  Gb  abort.o [11]
+au8ConfigDescriptor        0x1'9658    0x30  Data  Gb  UsbConfig.o [2]
+au8DeviceDescriptor          0x9000    0x14  Data  Gb  UsbConfig.o [2]
+au8ReportDescriptor          0x9014     0x1  Data  Gb  UsbConfig.o [2]
+bDataReceived           0x1fff'fc98     0x1  Data  Lc  UsbHostHidCom.o [3]
+bDataSending            0x1fff'fc97     0x1  Data  Lc  UsbHostHidCom.o [3]
+bDataSent               0x1fff'fc96     0x1  Data  Lc  UsbHostHidCom.o [3]
+bDeviceCdcComConnected  0x1fff'f547     0x1  Data  Gb  MyUsb.o [1]
+bEchoAtSeperatorOnly    0x1fff'e507     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+bEchoMode               0x1fff'e506     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+bKeyboardChanged        0x1fff'fdf6     0x1  Data  Lc  UsbHostHidKeyboard.o [3]
+bMouseMoved             0x1fff'fe5d     0x1  Data  Lc  UsbHostHidMouse.o [3]
+bReady                  0x1fff'e50b     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+bSeperatorFlag          0x1fff'e509     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+bSetupComplete          0x1fff'ffa6     0x1  Data  Lc  UsbHostMassStorage.o [3]
+bTemp                   0x2000'00fa     0x1  Data  Gb  VARIABLE.o [1]
+bUsbEthernetClockEnabled
+                        0x2000'00f7     0x1  Data  Lc  usbethernetclock.o [7]
+bVcommActive            0x1fff'e508     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+cRxBuffer               0x1fff'e094   0x100  Data  Lc  mfs.o [7]
+cSeperator              0x1fff'e50a     0x1  Data  Lc  UsbDeviceCdcCom.o [3]
+cTemp                   0x2000'00fb     0x1  Data  Gb  VARIABLE.o [1]
+cTxBuffer               0x1fff'e194   0x100  Data  Lc  mfs.o [7]
+command_comma_counter   0x1fff'eef8     0x1  Data  Gb  command.o [1]
+day                          0x8cc0    0x1c  Data  Gb  DualTimer.o [1]
+digits                     0x1'9500    0x28  Data  Lc  iar_Stoullx.o [11]
+dp                      0x1fff'ef00     0x4  Data  Gb  command.o [1]
+exit                       0x1'976f     0x4  Code  Gb  exit.o [11]
+fTemp                   0x2000'0018     0x4  Data  Gb  VARIABLE.o [1]
+frexp                      0x1'06d5          Code  Gb  frexp.o [12]
+frexpl                     0x1'06d5          Code  Gb  frexp.o [12]
+i                       0x1fff'fff0     0x4  Data  Gb  1wire.o [1]
+iTemp                   0x2000'0014     0x4  Data  Gb  VARIABLE.o [1]
+ldexp                      0x1'07ad          Code  Gb  ldexp.o [12]
+ldexpl                     0x1'07ad          Code  Gb  ldexp.o [12]
+llTemp                  0x1fff'ffc0     0x8  Data  Gb  VARIABLE.o [1]
+lmos                       0x1'3900    0x18  Data  Lc  xDaysTo64.o [11]
+localtime                    0x8cdd    0x20  Code  Gb  localtim64.o [11]
+loop                    0x2000'00e5     0x1  Data  Gb  i2c.o [1]
+m_astcMfsInstanceDataLut
+                        0x1fff'e054    0x3c  Data  Gb  mfs.o [7]
+m_astcUsbClassSupervisorInstanceDataLut
+                        0x1fff'e3e0    0x2c  Data  Gb  UsbClassSupervisor.o [3]
+m_astcUsbDeviceInstanceDataLut
+                        0x1fff'e40c    0xe8  Data  Gb  usbdevice.o [7]
+m_astcUsbHostInstanceDataLut
+                        0x1fff'e5bc   0x24c  Data  Gb  usbhost.o [7]
+m_astcUsbInstanceDataLut
+                        0x1fff'e294   0x14c  Data  Gb  usb.o [7]
+main                       0x1'46ed   0x47c  Code  Gb  main.o [10]
+main_id                 0x1fff'ef04     0x4  Data  Gb  command.o [1]
+memchr                     0x1'067d          Code  Gb  memchr.o [13]
+mktime                       0xf61d    0xe0  Code  Gb  mktime64.o [11]
+mos                        0x1'3918    0x18  Data  Lc  xDaysTo64.o [11]
+ndigs                      0x1'94d8    0x28  Data  Lc  iar_Stoullx.o [11]
+pfnLineCodingChange     0x1fff'e518     0x4  Data  Lc  UsbDeviceCdcCom.o [3]
+pows                       0x1'9570    0x48  Data  Lc  strto64.o [12]
+pstcEndpointIN          0x1fff'e514     0x4  Data  Lc  UsbDeviceCdcCom.o [3]
+pstcMfsComChannel       0x1fff'e090     0x4  Data  Lc  mfs.o [7]
+pstcStorageInfo         0x1fff'fde4     0x4  Data  Lc  UsbHostMassStorage.o [3]
+pstcStringDescriptors        0x9018    0x18  Data  Gb  UsbConfig.o [2]
+pstcUsbHandle           0x1fff'e510     0x4  Data  Lc  UsbDeviceCdcCom.o [3]
+pstcUsbHandle           0x1fff'fca8     0x4  Data  Lc  UsbHostHidCom.o [3]
+pstcUsbHandle           0x1fff'fe08     0x4  Data  Lc  UsbHostHidKeyboard.o [3]
+pstcUsbHandle           0x1fff'fe68     0x4  Data  Lc  UsbHostHidMouse.o [3]
+pstcUsbHandle           0x1fff'fde8     0x4  Data  Lc  UsbHostMassStorage.o [3]
+pu8DataReceived         0x1fff'fcb4    0x40  Data  Lc  UsbHostHidCom.o [3]
+pu8IngoingBuffer        0x1fff'e51c    0x80  Data  Lc  UsbDeviceCdcCom.o [3]
+pu8LineCoding           0x1fff'e4fc     0x8  Data  Lc  UsbDeviceCdcCom.o [3]
+pu8OldData              0x1fff'fdf8     0x8  Data  Lc  UsbHostHidKeyboard.o [3]
+pu8VcommBuffer          0x1fff'f750   0x200  Data  Lc  UsbDeviceCdcCom.o [3]
+ranmatch                   0x1'1a6f    0x46  Code  Lc  xscanffull_nomb.o [11]
+resbuff                 0x1fff'ef0c   0x210  Data  Gb  command.o [1]
+scalbln                    0x1'07ad          Code  Gb  ldexp.o [12]
+scalblnl                   0x1'07ad          Code  Gb  ldexp.o [12]
+scalbn                     0x1'07ad          Code  Gb  ldexp.o [12]
+scalbnl                    0x1'07ad          Code  Gb  ldexp.o [12]
+scale                        0xb7dd    0x46  Code  Lc  xprintffull_nomb.o [11]
+sec_hand                0x2000'00e0     0x4  Data  Lc  xfail_s.o [11]
+setup                   0x1fff'ff9c     0x8  Data  Lc  UsbHostMassStorage.o [3]
+sp                      0x1fff'eefc     0x4  Data  Gb  command.o [1]
+spi_send                     0x5ec9    0x6a  Code  Gb  AT45DB161.o [1]
+sprintf                      0x5a49    0x40  Code  Gb  sprintf.o [11]
+sscanf                       0xba65    0x28  Code  Gb  sscanf.o [11]
+stcClearStallEp0           0x1'05a8     0x8  Data  Gb  usbhost.o [7]
+stcDeviceDescriptorRequest
+                           0x1'9804     0x8  Data  Gb  usbhost.o [7]
+stcEndpointBufferIN     0x1fff'e59c    0x10  Data  Lc  UsbDeviceCdcCom.o [3]
+stcEndpointBufferOUT    0x1fff'e5ac    0x10  Data  Lc  UsbDeviceCdcCom.o [3]
+stcGlobalStorageInfo    0x1fff'fdb4    0x20  Data  Gb  UsbHostMassStorage.o [3]
+stcKeyboardData         0x1fff'fdec     0x8  Data  Lc  UsbHostHidKeyboard.o [3]
+stcLineCoding           0x1fff'e4f4     0x8  Data  Lc  UsbDeviceCdcCom.o [3]
+stcMouseData            0x1fff'fe48    0x14  Data  Lc  UsbHostHidMouse.o [3]
+stcShortDeviceDescriptorRequest
+                           0x1'05a0     0x8  Data  Gb  usbhost.o [7]
+strcat                       0x640d    0x1e  Code  Gb  strcat.o [11]
+strcatTimeZone               0xf30d    0x98  Code  Gb  command.o [1]
+strchr                     0x1'0625          Code  Gb  strchr.o [13]
+strcmp                       0x6559          Code  Gb  strcmp.o [13]
+strcpy                       0x8ef1          Code  Gb  strcpy.o [13]
+strlen                       0x8e51          Code  Gb  strlen.o [13]
+strtoll                    0x1'4215     0x2  Code  Gb  iar_Stollx.o [11]
+strtoull                   0x1'4165     0x2  Code  Gb  iar_Stoullx.o [11]
+sub_id                  0x1fff'ef08     0x4  Data  Gb  command.o [1]
+temp_timestamp          0x1fff'fe1c    0x2c  Data  Gb  mmu.o [1]
+u                       0x1fff'ffc8     0x8  Data  Gb  VARIABLE.o [1]
+u16MaxPackageSizeIN     0x1fff'fc9a     0x2  Data  Lc  UsbHostHidCom.o [3]
+u16MaxPackageSizeIN     0x1fff'fe00     0x2  Data  Lc  UsbHostHidKeyboard.o [3]
+u16MaxPackageSizeIN     0x1fff'fe5e     0x2  Data  Lc  UsbHostHidMouse.o [3]
+u16MaxPackageSizeIN     0x1fff'fdd6     0x2  Data  Lc  UsbHostMassStorage.o [3]
+u16MaxPackageSizeOUT    0x1fff'fc9c     0x2  Data  Lc  UsbHostHidCom.o [3]
+u16MaxPackageSizeOUT    0x1fff'fe02     0x2  Data  Lc  UsbHostHidKeyboard.o [3]
+u16MaxPackageSizeOUT    0x1fff'fdd8     0x2  Data  Lc  UsbHostMassStorage.o [3]
+u32DeviceCdcReceiveSize
+                        0x1fff'f74c     0x4  Data  Gb  MyUsb.o [1]
+u32ReceivedData         0x1fff'e50c     0x4  Data  Lc  UsbDeviceCdcCom.o [3]
+u8EndpointIN            0x1fff'fc94     0x1  Data  Lc  UsbHostHidCom.o [3]
+u8EndpointIN            0x1fff'fdf4     0x1  Data  Lc  UsbHostHidKeyboard.o [3]
+u8EndpointIN            0x1fff'fe5c     0x1  Data  Lc  UsbHostHidMouse.o [3]
+u8EndpointIN            0x1fff'ffa4     0x1  Data  Lc  UsbHostMassStorage.o [3]
+u8EndpointOUT           0x1fff'fc95     0x1  Data  Lc  UsbHostHidCom.o [3]
+u8EndpointOUT           0x1fff'fdf5     0x1  Data  Lc  UsbHostHidKeyboard.o [3]
+u8EndpointOUT           0x1fff'ffa5     0x1  Data  Lc  UsbHostMassStorage.o [3]
+u8MouseData             0x1fff'fe14     0x8  Data  Lc  UsbHostHidKeyboard.o [3]
+u8MouseData             0x1fff'fe6c     0x8  Data  Lc  UsbHostHidMouse.o [3]
+u8Status                0x1fff'fc99     0x1  Data  Lc  UsbHostHidCom.o [3]
+u8Status                0x1fff'fdd4     0x1  Data  Lc  UsbHostMassStorage.o [3]
+ucTemp                  0x2000'00fc     0x1  Data  Gb  VARIABLE.o [1]
+uiTemp                  0x2000'001c     0x4  Data  Gb  VARIABLE.o [1]
+urc                     0x1fff'ffd8     0x8  Data  Gb  VARIABLE.o [1]
+ut                      0x1fff'ffd0     0x8  Data  Gb  VARIABLE.o [1]
+wasConfigured           0x1fff'f546     0x1  Data  Gb  MyUsb.o [1]
+wifi_test_fail_cntr     0x1fff'fee9     0x1  Data  Gb  SerialHmi.o [1]
+
+
+[1] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\My_11065561366466422769.dir
+[2] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\UsbConfig_13880776959982941018.dir
+[3] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\UsbMiddleWare_4399025626197580377.dir
+[4] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\adc_14570598181400393537.dir
+[5] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\common_14919461937644757070.dir
+[6] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\elm-chan.org_14072396974245291179.dir
+[7] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\l3_18370833379257815018.dir
+[8] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\ppg_314900825880331553.dir
+[9] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\sk-fm3-48pmc-usbstick_846271940431841289.dir
+[10] = C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\obj\source_files_8152044814988207902.dir
+[11] = dl7M_tln.a
+[12] = m7M_tl.a
+[13] = rt7M_tl.a
+
+  96'886 bytes of readonly  code memory
+   7'922 bytes of readonly  data memory
+   9'495 bytes of readwrite data memory
+
+Errors: none
+Warnings: 2

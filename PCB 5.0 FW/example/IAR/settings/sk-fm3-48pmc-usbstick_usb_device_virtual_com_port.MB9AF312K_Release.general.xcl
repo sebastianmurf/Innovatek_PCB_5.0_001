@@ -1,0 +1,15 @@
+C:\iar\ewarm-9.70.1\arm\bin\armproc.dll
+
+ C:\iar\ewarm-9.70.1\arm\bin\armgdbserv.dll
+
+ "C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\output\release\exe\sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out"
+
+ --plugin=C:\iar\ewarm-9.70.1\arm\bin\armLibSupportUniversal.dll
+
+ "--macro=C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\config\reset.mac"
+
+ "--flash_loader=C:\IS Firmware\FW-IS-PCB5.0\PCB 5.0 FW\example\IAR\config\flashloader\FlashLoader.board"
+
+ 
+
+

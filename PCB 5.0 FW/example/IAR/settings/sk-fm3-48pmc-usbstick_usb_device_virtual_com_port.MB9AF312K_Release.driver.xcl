@@ -1,0 +1,17 @@
+--endian=little
+
+--cpu=Cortex-M3
+
+--fpu=None
+
+--drv_verify_download
+
+--semihosting=none
+
+--drv_communication=TCPIP:127.0.0.1
+
+--drv_restore_breakpoints=_call_main
+
+
+
+
