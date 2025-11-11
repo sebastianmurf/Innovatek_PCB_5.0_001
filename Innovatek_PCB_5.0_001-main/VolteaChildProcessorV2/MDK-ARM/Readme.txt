@@ -1,0 +1,4 @@
+CHANGES MADE
+
+Dated: 21.02.22
+1. MAX_NO_OF_SAMPLE_FOR_AVERAGE changed from 3 to 2

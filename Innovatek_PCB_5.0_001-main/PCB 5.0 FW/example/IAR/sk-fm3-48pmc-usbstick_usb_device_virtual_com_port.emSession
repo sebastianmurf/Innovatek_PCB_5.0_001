@@ -1,0 +1,58 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBuffer/>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;common"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;Internal Files"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;My"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;Source Files"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;source_files"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;source_files;filesystem"/>
+  <ProjectSessionItem path="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;sk-fm3-48pmc-usbstick_usb_device_virtual_com_port;source_files;UsbMiddleWare"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="53" useTextEdit="1" path="../source/main.c" left="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="11" useTextEdit="1" path="../source/My/MyUsb.h" left="0" top="22" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../Readme.txt" left="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="EWARM_6_30_7_README.txt" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="startup_mb9af31x.s" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" path="output/release/exe/sk-fm3-48pmc-usbstick_usb_device_virtual_com_port.out" left="0" top="62931" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../source/UsbConfig/UsbConfig.c" left="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="122" useTextEdit="1" path="../source/common/mb9a310k.h" left="0" selected="1" top="97" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" path="../source/filesystem/elm-chan.org/diskio.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="52" useTextEdit="1" path="../source/UsbMiddleWare/UsbHostMassStorage.h" left="0" top="37" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="49" useTextEdit="1" path="../source/mcu.h" left="0" top="32" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="sk-fm3-48pmc-usbstick_usb_device_virtual_com_port" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="MB9AF312K_Release External" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
