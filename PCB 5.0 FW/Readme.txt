@@ -1,4 +1,12 @@
 PCB 2.0
+T5.5 over T5.4 Dated: 12/19/25
+1. AEK-3000 Power Supply recognition logic to run on lower AC voltage without alarm.
+2. Manual pump functionality.
+3. Manual power supply functionality.
+4. Current setpoints added for pre-pure, pure, waste from setpoints branch.
+4. Post-pure-shunt and pre-pure-shunt steps added to process operation.
+
+
 T5.4 over T5.3 Dated: 05/06/2025 . 
 1. DigitalOutput &= ~(1<<OUTPUT_SHUNT);	//OUTPUT_SHUNT On added on waste step
 
@@ -135,7 +143,7 @@ T2.9 over T2.8 Dated: 22.09.2024
 I. Changes asked by Guillermo: Whatsapp 22.09.2024
     1. Disable relays #6 and #7 during the first and last 5 seconds of waste. Also disable the pae power supply. CHANGES DONE FOR RLY6, BUT RLY 7 IS ALL TIME DISABLE DURING WASTE 
     2. Relay #2 should not be switching on and off during Flush Module  command. ONCE MANUAL FLUSH IS COMMAND RLY 2 IS ON, LATER IT CAN GET OFF DUE TO PRESSURE BUT WILL NOT GET ON AGAIN IF PRESSURE IS BACK
-    3. now that we know how to resolve the wifi dosconnection, disable the beep alarm. CODE DELETED
+    3. now that we know how to resolve the wifi dosconnection, disableÂ theÂ beepÂ alarm. CODE DELETED
 
 T2.8 over T2.7 Dated: 21.09.2024
 1. Buz on for 25mS only instead of 50mS for every 300 Sec during alarm.
@@ -150,7 +158,7 @@ Lets do the following changes:
 1. Do not do a pcb reset if there is an ec zero alarm. DONE
 2. show the alarm under alarms. ALREADY THERE
 3. Go to IDLE if there is a zero ec alarm after 5 cycles. DONE
-4. Make the cycles adjustable through setpoints. For example if we want to extend the cycles later, allow us. If we want it to be 10 or 200 allow us. FROM DOCKLIGHT ONLY
+4. Make the cycles adjustable through setpoints. For example if we want to extend the cycles later, allow us. If we want it to be 10Â orÂ 200Â allowÂ us. FROM DOCKLIGHT ONLY
 DOCKLIGHT COMMAND TO SET AND CHECK ZERO EC SET POINT AND ITS COUNTER
 1. Read the setpoint value set in PCB = 1010,DBG,410.34=?]
 2. Set the cycle count for Zero EC alarm = 1010,DBG,410.34=X]
@@ -177,8 +185,8 @@ T2.1 Dated: 29.06.2024
 2.  Duing IDLE step buzzer gets ON for 200ms every 5min. But within one sec it was turning ON for multiple times. Made once only.
 
 T2.0 Dated: 28.06.2024
-The system should always "listen" for a pressure drop (same as in the pure step) when it is in the “Flush+Shunt” step too, 
-if Pressure < Pressure Start and the system is in standby or in the middle of “Flush+Shunt,” go to pre-purify and not to first waste 
+The system should always "listen" for a pressure drop (same as in the pure step) when it is in the Â“Flush+ShuntÂ” step too, 
+if Pressure < Pressure Start and the system is in standby or in the middle of Â“Flush+Shunt,Â” go to pre-purify and not to first waste 
 as per the flow chart version 2 edited on 28-06-2024.
 
 T1.9 Dated: 27.06.2024
@@ -199,7 +207,7 @@ T1.7
 2. whenever the automode is started first waste is always half of the total waste time.
 
 T1.6
-1.	Add live pressure screen in the Operation’s tab
+1.	Add live pressure screen in the OperationÂ’s tab
 
 T1.5
 1. keep alarms tab at last of the line in operations screen
@@ -298,9 +306,9 @@ C. The unit is within X minutes/hours of a set time. For example: set time is 12
 3. During DiEntry firmware upgrade, bypass relay keeps on toggling. hence these 2 functions PAE_OnOffRelayControl(); BypassOperation(); has been moved inside the FIRMWARE_NOT_AVAILABLE.
 
 R4.9 over R4.8 FOR ALL MODEL 03.05.2022
-1. Implement the “Dry System” user function:
-        DiUse and CFO – Turn On relays J9, J10, J11, and J12.
-        DiEntry – Turn On relays J9, J11, J12, and J16.
+1. Implement the Â“Dry SystemÂ” user function:
+        DiUse and CFO Â– Turn On relays J9, J10, J11, and J12.
+        DiEntry Â– Turn On relays J9, J11, J12, and J16.
 
 R4.8 over R4.7 FOR ALL MODEL 12.04.2022
 1. if bypass pressure is set as zero means no bypass alarm is required. so before ALARM_OCCURED, AnalogPressureBypassLevel > 0 condition is checked. DONE
@@ -313,21 +321,21 @@ R4.7 over R4.6 FOR ALL MODEL 08.04.2022
 2. Relay name MOV replaced with WOV. done
 
 R4.6 over R4.2/4.3/4.4/4.5 FOR ALL MODEL 11.03.2022
-1. Change the default system password to “1010”. Currently, it is “0000”.
+1. Change the default system password to Â“1010Â”. Currently, it is Â“0000Â”.
 2. Adjust the minimum Bypass pressure setpoint to 0 instead of 0.5 BAR. 
 3. If there is a zero EC error, ONLY send the alarm. Do not send the system to IDLE.
 4. Rather than checking spot EC to check for a zero ec error, use average EC at the end of the Pure step.
 5. Adjust the minimum Prepure time setpoint to 2 instead of 0 seconds.
-6. Remove the “TOG?” characters. This will make space for the relay names.
-7. Rename the “SNT” relay. Name it “WASTE COIL”. Attached is a photo.
-8. Rename the “POL” relay. Name it “PURE COIL”. Attached is a photo.
-9.Rename the “PAE” relay. Name it “RECIRC. V”. Attached is a photo.
-10.Rename the “BUZ” relay. Name it “BUZZER”. Attached is a photo.
+6. Remove the Â“TOG?Â” characters. This will make space for the relay names.
+7. Rename the Â“SNTÂ” relay. Name it Â“WASTE COILÂ”. Attached is a photo.
+8. Rename the Â“POLÂ” relay. Name it Â“PURE COILÂ”. Attached is a photo.
+9.Rename the Â“PAEÂ” relay. Name it Â“RECIRC. VÂ”. Attached is a photo.
+10.Rename the Â“BUZÂ” relay. Name it Â“BUZZERÂ”. Attached is a photo.
 11. Live EC added in log memory.
 12. PAEcurrent added in log memory.
 13. Live EC added in server protocol.
 14. PAEcurrent added in server protocol.
-15. Reduce the timer on the “Stat: Failed” logic to no more than 5 Minutes. Previously failed msg was being displayed after 3 unsuccessful attemp, now failed msg is displayed after first attempt.
+15. Reduce the timer on the Â“Stat: FailedÂ” logic to no more than 5 Minutes. Previously failed msg was being displayed after 3 unsuccessful attemp, now failed msg is displayed after first attempt.
 
 
 R4.5 over R4.3 FOR ALL MODEL DATED 16.03.2022
@@ -389,15 +397,15 @@ R3.3 over R3.2 according to Guillermo Email dated: 27.01.2022
 
 R3.2 over R3.1 according to Guillermo Email dated: 15.01.2022
 below bug of 3.1 resolved.
-1d> If the EC zero error is not resolved after doing a PCB reset, then trigger the EC ZERO ERROR alarm and send the system to IDLE mode. NOT Functioning Properly – when system goes into IDLE mode after doing the PCB reset, it has been observed that an infinite flush-shunt occurs.  When a DiUse is in IDLE mode, NONE of the relays should be ON other than the buzzer(spare) every 5 mins.
+1d> If the EC zero error is not resolved after doing a PCB reset, then trigger the EC ZERO ERROR alarm and send the system to IDLE mode. NOT Functioning Properly Â– when system goes into IDLE mode after doing the PCB reset, it has been observed that an infinite flush-shunt occurs.  When a DiUse is in IDLE mode, NONE of the relays should be ON other than the buzzer(spare) every 5 mins.
 When testing, I suggest you replicate the EC ZERO ERROR by disconnecting the EC probe.
-2. WIFI NAME Limit: Change the limit on WIFI Name from 16 to 32 characters. DONE NOT Functioning Properly – When WIFI name is longer than 13 characters, the WIFI name address gets corrupted and the WIFI Password is added to the WIFI Name. As an example, look at the attached photos. WIFI Name should only be “iphone12341111”; however, the WIFI Password is added to it:”iphone12341111zzzzzzzzzz12345678”.
+2. WIFI NAME Limit: Change the limit on WIFI Name from 16 to 32 characters. DONE NOT Functioning Properly Â– When WIFI name is longer than 13 characters, the WIFI name address gets corrupted and the WIFI Password is added to the WIFI Name. As an example, look at the attached photos. WIFI Name should only be Â“iphone12341111Â”; however, the WIFI Password is added to it:Â”iphone12341111zzzzzzzzzz12345678Â”.
 3. EC Limit: Change the limit on EC target from a max of 2000 to a max of 5000. DONE. Works.
-4. Wait Name: Replace Wait with Stand By. DONE Incomplete – one of the screens is still showing “Wait”. The screen that shows the EC shows Wait instead of Stand By. A video has been sent to your WhatsApp.
+4. Wait Name: Replace Wait with Stand By. DONE Incomplete Â– one of the screens is still showing Â“WaitÂ”. The screen that shows the EC shows Wait instead of Stand By. A video has been sent to your WhatsApp.
 
 R3.1 over R3.0 according to Guillermo Email dated: 22.12.2021
 1. EC ZERO ERROR Self-Resolve Logic: The zero ec alarm has been activating on a few systems, both DiUse and DiEntry. It has been occurring at random times and root cause has not been yet identified. I have learnt through testing that a PCB reset will fix this error; therefore, we would like to implement this PCB reset as a temporary fix. Below is the logic:
-    1a. If an EC Zero Error occurs, activate a counter, and start a cycle count. Name this cycle count “ EC ZERO Cycles” and make it a variable. As a default set it to 3 cycles. Add this variable to setpoints.
+    1a. If an EC Zero Error occurs, activate a counter, and start a cycle count. Name this cycle count Â“ EC ZERO CyclesÂ” and make it a variable. As a default set it to 3 cycles. Add this variable to setpoints.
     1b. If the system runs for X cycles and the EC zero Error is still there, do a PCB reset and reset counter.
     1c. If the EC zero error is resolved before reaching X cycles, reset counter.
     1d. If the EC zero error is not resolved after doing a PCB reset, then trigger the EC ZERO ERROR alarm and send the system to IDLE mode.
@@ -1002,7 +1010,7 @@ D7.5 over R3.2
    | Bypass | Signal | Operation  | Comments
    | 24 V   | 24 V   | Start      | Latch the start signal when the bypass has 24 volts and signal is 24 volts. These both condition should satisfy.
    |        |        |            |
-   | 24V/0V | 0 V    | Stop       | It doesn’t matter if the Bypass has 24 V or 0 V once the Signal has 0 Volts the operation should stop and go to waste, shunting and then wait for Start Signal at Bypass
+   | 24V/0V | 0 V    | Stop       | It doesnÂ’t matter if the Bypass has 24 V or 0 V once the Signal has 0 Volts the operation should stop and go to waste, shunting and then wait for Start Signal at Bypass
     --------------------------------------------------------------------------------------------------------------------------------------------------
 6. Bypass alarm condition of entire waste step duration is deactivated.
 7. WOV valve to open on SHUNT step.
@@ -1077,14 +1085,14 @@ D6.0 over D5.9
 3. Upon PCB restart it will not send SMS to all those alarm for which SMS has been disabled.
 
 D5.9 over R2.7M
-1. Alarms – Yes or No only – Open. PROGRAMMED. OK TESTED
-2. Front screen, replace CIP countdown with Average EC – Open PROGRAMMED. OK TESTED
-3. Total Pure Volume resettable – Open  (Put it under Setpoints if possible) PROGRAMMED. OK TESTED
-4. CIP count, place lower down the screen listing – Open ( Put it after the Average Pure EC screen) PROGRAMMED . OK TESTED
-5. Display % recovery – Open  (Put it after Total Volume, see calculation below). OK TESTED
-6. Display total waste – Open  (Put it after % recovery). OK TESTED
-7. Display total treated –  (Put it after total waste). OK TESTED
-8. Password protect the EC target – Open. PROGRAMMED. OK TESTED
+1. Alarms Â– Yes or No only Â– Open. PROGRAMMED. OK TESTED
+2. Front screen, replace CIP countdown with Average EC Â– Open PROGRAMMED. OK TESTED
+3. Total Pure Volume resettable Â– Open  (Put it under Setpoints if possible) PROGRAMMED. OK TESTED
+4. CIP count, place lower down the screen listing Â– Open ( Put it after the Average Pure EC screen) PROGRAMMED . OK TESTED
+5. Display % recovery Â– Open  (Put it after Total Volume, see calculation below). OK TESTED
+6. Display total waste Â– Open  (Put it after % recovery). OK TESTED
+7. Display total treated Â–  (Put it after total waste). OK TESTED
+8. Password protect the EC target Â– Open. PROGRAMMED. OK TESTED
 
 Calculation for % recovery:
 (Avg. Pure Flow * Purify Time) / (Purify Time * Avg. Pure Flow + Waste Time * Avg. Waste Flow + Prepure Time * Avg. Prepure Flow) * 100
@@ -1142,9 +1150,9 @@ Released version or D5.1
 
 D5.1 over 5.0
 1.Update the factory setpoint settings for the following
-•CIP Step 1A : 4s. done
-•CIP Step 1 : 117s done
-•Max CIP P.R.T : 930 done
+Â•CIP Step 1A : 4s. done
+Â•CIP Step 1 : 117s done
+Â•Max CIP P.R.T : 930 done
 2.Enable shunt during the entire duration of CIP done
 3. shunt (PVR) relay shunting time increased to 250ms from 50 ms
 4. manual option of operating PVR relay added.
@@ -1578,7 +1586,7 @@ R3.0.1
 
 
 R3.0
-1. PUMP relay is always disabled – should be enabled for all steps except pure. DONE ok tested
+1. PUMP relay is always disabled Â– should be enabled for all steps except pure. DONE ok tested
 2. Upon PowerON, device on logout mode. Press enter to automode-idle stage. Press enter to goto wait stage. Wait stage will check
 	input signal to go to prepurify. DONE ok tested
 3. Alarms DONE ok tested
@@ -1608,8 +1616,8 @@ R2.6
 2.  Setpoints/Volt P-factor is linked to T.Conductivity DONE ok tested
 3. Setpoints/T.Conductivity is linked to w_value DONE ok tested
 4. Setpoints/w_value is not linked to anything DONE ok tested
-5.  Sensor read/Flow doesn’t update automatically, and doesn’t update at all when Timebase is set to M. Flow timebase should be M. DONE ok tested
-6.  Issues with flowmeter calibration – flow is not giving reasonable values. NEEDS MORE TIME
+5.  Sensor read/Flow doesnÂ’t update automatically, and doesnÂ’t update at all when Timebase is set to M. Flow timebase should be M. DONE ok tested
+6.  Issues with flowmeter calibration Â– flow is not giving reasonable values. NEEDS MORE TIME
 o   K factor is 840pulses/L, timebase in M, output in L/min. CALIBRATED AT OFFICE
 7.  How do I calibrate temperature? At the moment, it reads 20.4 when it is 20.6C (so it looks ok)
 8. How do I calibrate EC? Reads 1014 when at 1413uS/cm. This is an unacceptable margin!
@@ -1617,22 +1625,22 @@ o   K factor is 840pulses/L, timebase in M, output in L/min. CALIBRATED AT OFFIC
 o   This means that we can change the Pure EC Target both in setpoints and under the automatic process DONE
 
 P1.B1.H1.F1.R2.5
-·         Setpoints – please update setpoints as outlined in the table in previous email
+Â·         Setpoints Â– please update setpoints as outlined in the table in previous email
 o   Pump P-factor default value incorrect DONE
 o   Dyna P-factor default value & max value incorrect DONE
 o   P.Cycle Volt name and default value incorrect DONE
 o   W.Cycle Volt name and default value incorrect DONE
-o   V. P-factor isn’t linked to anything. What is this used for? I was not aware that we need a P-factor for voltage. DONE
-o   T.Conductivity shouldn’t exist, please use “Pure EC Target” setpoint we already have for the current calculation DONE
+o   V. P-factor isnÂ’t linked to anything. What is this used for? I was not aware that we need a P-factor for voltage. DONE
+o   T.Conductivity shouldnÂ’t exist, please use Â“Pure EC TargetÂ” setpoint we already have for the current calculation DONE
 o   W_factor is not linked to anything DONE
-·         Automatic Process
+Â·         Automatic Process
 o   PAE is outputting 12V all the time, even when not in automatic process
 o   Instant Flow does not display anything DONE. ok tested
 o   Avg Pure EC
-§  doesn’t have a right arrow DONE
-§  has too many decimal points (should be no DP) DONE
-§  doesn’t show Average Pure EC, instead it shows instant pure EC DONE
-o   Automatic process crashes randomly on step-to-step transitions and stops operation. This is unacceptable – at the moment I have not managed to run a complete cycle
+Â§  doesnÂ’t have a right arrow DONE
+Â§  has too many decimal points (should be no DP) DONE
+Â§  doesnÂ’t show Average Pure EC, instead it shows instant pure EC DONE
+o   Automatic process crashes randomly on step-to-step transitions and stops operation. This is unacceptable Â– at the moment I have not managed to run a complete cycle
 
 R2.5
 1. The code changed in R2.4 for GPRS PWRKEY to remain in low state untill AT command response had issues as GPRS_GPIO_INTI was again making the PWRKEY high. RESOLVED
